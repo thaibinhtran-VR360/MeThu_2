@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.1.12/21036
 // Filename: MeThu_2.ggsk
-// Generated 2026-11-13T15:50:30
+// Generated 2026-11-13T16:11:27
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_skin', 2, false, { ignoreInState: 1  });
@@ -11524,7 +11524,7 @@ alert("The current view has been copied.");
 		el.ggTextDiv=els;
 		el.ggId="url_popup_title";
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
-		el.ggVisible=true;
+		el.ggVisible=false;
 		el.className="ggskin ggskin_text montserrat_regular";
 		el.ggType='text';
 		hs ='';
@@ -11535,7 +11535,7 @@ alert("The current view has been copied.");
 		hs+='left : 25px;';
 		hs+='position : absolute;';
 		hs+='top : 20px;';
-		hs+='visibility : inherit;';
+		hs+='visibility : hidden;';
 		hs+='width : calc(100% - 100px);';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
@@ -28166,7 +28166,7 @@ alert("The current view has been copied.");
 		me._ht_video_url_title.ggUpdateText=function() {
 			var params = [];
 			params.push(String(player._(me.hotspot.title)));
-			var hs = player._("%1", params);
+			var hs = player._("%1\n", params);
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
