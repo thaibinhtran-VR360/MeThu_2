@@ -1,562 +1,664 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour apprev="21036" start="node7" hassounds="0" appversion="7.1.12">
-  <panorama hideabout="1" id="node7">
-    <input levelbias="0.400" leveltilesize="510" levelingpitch="0" levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="3600" height="3600">
-      <level predecode="0" preload="0" width="3600" height="3600"/>
-      <level predecode="0" preload="0" width="1800" height="1800"/>
-      <level predecode="0" preload="0" width="900" height="900"/>
-      <level predecode="1" preload="1" width="450" height="450"/>
+<tour hassounds="1" start="node7" appversion="7.1.12" apprev="21036">
+  <panorama id="node7" hideabout="1">
+    <input height="3600" leveltilesize="510" levelbias="0.400" width="3600" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelingpitch="0">
+      <level height="3600" width="3600" preload="0" predecode="0"/>
+      <level height="1800" width="1800" preload="0" predecode="0"/>
+      <level height="900" width="900" preload="0" predecode="0"/>
+      <level height="450" width="450" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="-135.382">
-      <start pan="0" tilt="0" projection="4" fov="100"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+    <view pannorth="-135.382" fovmode="2">
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
       <min pan="0" tilt="-90" fovpixel="1"/>
-      <max fovfisheye="360" pan="360" tilt="90" fovstereographic="330" scaletofit="1" fov="100"/>
+      <max pan="360" fovstereographic="330" fovfisheye="360" scaletofit="1" tilt="90" fov="100"/>
     </view>
-    <userdata info="" heading="-135.382" latitude="15.585296" datetime="5/5/2025 3:23 PM" tags="Menu" nodeid="node7" altitude="36.59" copyright="" title="Điểm drone 01" longitude="108.512412" source="" author="" comment="" customnodeid="" description=""/>
-    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
-      <label wordwrap="1" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" borderalpha="1" border="1" borderradius="1" background="1" width="180" height="20" textcolor="0x000000" bordercolor="0x000000" textalpha="1"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" borderalpha="1" mode="0"/>
-      <hotspot skinid="ht_node_forward_1" pan="-74.37" tilt="0" distance="71.1381" target="$fwd" id="Point01" url="{node6}" title="Điểm drone 07" description=""/>
-      <hotspot skinid="ht_node_forward_1" pan="-282.51" tilt="4.69" distance="130.002" target="$fwd" id="Point02" url="{node1}" title="Điểm drone 02" description=""/>
-      <hotspot skinid="ht_node_forward_1" pan="-7.69" tilt="0.36" distance="25.3576" target="$fwd" id="Point03" url="{node14}" title="Điểm drone 14" description=""/>
-      <hotspot skinid="ht_node_forward_1" pan="-359.64" tilt="0.45" distance="110.157" target="$fwd" id="Point04" url="{node8}" title="Điểm drone 08" description=""/>
-      <hotspot skinid="ht_node_forward_1" pan="8.17" tilt="0.22" distance="203.015" target="$fwd" id="Point05" url="{node2}" title="Điểm drone 03" description=""/>
-      <hotspot skinid="ht_node_forward_1" pan="-35.46" tilt="0.09" distance="135.334" target="$fwd" id="Point06" url="{node5}" title="Điểm drone 06" description=""/>
-      <hotspot skinid="ht_node_forward_1" pan="-314.94" tilt="3.36" distance="176.025" target="$fwd" id="Point07" url="{node9}" title="Điểm drone 09" description=""/>
-      <hotspot skinid="ht_node" pan="1.77235" tilt="-27.64" distance="50.3952" target="$fwd" id="Point08" url="{node45}" title="Điểm mặt đất 06" description=""/>
-      <hotspot skinid="ht_url" pan="-349.04" url="" tilt="-8.43" title="Vào tham quan bảo tàng" target="https://thaibinhtran-vr360.github.io/MeThu_Inside_2/" id="Point09" description=""/>
+    <userdata author="" latitude="15.585296" customnodeid="" title="Điểm drone 01" info="" tags="Menu" longitude="108.512412" altitude="36.59" heading="-135.382" source="" nodeid="node7" comment="" datetime="5/5/2025 3:23 PM" copyright="" description=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label borderradius="1" backgroundalpha="1" height="20" enabled="1" bordercolor="0x000000" wordwrap="1" borderalpha="1" width="180" textcolor="0x000000" textalpha="1" backgroundcolor="0xffffff" border="1" background="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="0"/>
+      <hotspot url="{node6}" pan="-74.37" target="$fwd" title="Điểm drone 07" skinid="ht_node_UAV" id="Point01" distance="71.1381" tilt="0" description=""/>
+      <hotspot url="{node1}" pan="-282.51" target="$fwd" title="Điểm drone 02" skinid="ht_node_UAV" id="Point02" distance="130.002" tilt="4.69" description=""/>
+      <hotspot url="{node14}" pan="-7.69" target="$fwd" title="Điểm drone 14" skinid="ht_node_UAV" id="Point03" distance="25.3576" tilt="0.36" description=""/>
+      <hotspot url="{node8}" pan="-359.64" target="$fwd" title="Điểm drone 08" skinid="ht_node_UAV" id="Point04" distance="110.157" tilt="0.45" description=""/>
+      <hotspot url="{node2}" pan="8.17" target="$fwd" title="Điểm drone 03" skinid="ht_node_UAV" id="Point05" distance="203.015" tilt="0.22" description=""/>
+      <hotspot url="{node5}" pan="-35.46" target="$fwd" title="Điểm drone 06" skinid="ht_node_UAV" id="Point06" distance="135.334" tilt="0.09" description=""/>
+      <hotspot url="{node9}" pan="-314.94" target="$fwd" title="Điểm drone 09" skinid="ht_node_UAV" id="Point07" distance="176.025" tilt="3.36" description=""/>
+      <hotspot url="{node45}" pan="1.77" target="$fwd" title="Điểm mặt đất 06" skinid="ht_node_3D" id="Point08" distance="50.3952" tilt="-27.56" description=""/>
+      <hotspot url="https://thaibinhtran-vr360.github.io/MeThu_Inside_2/" pan="-348.31" target="_top" title="Vào tham quan bảo tàng" skinid="ht_url" id="Point09" tilt="-7.09" description="Vào tham quan bảo tàng"/>
     </hotspots>
-    <media/>
-    <transition zoomafteroutfov="40" zoomfov="40" zoomafterinfov="140" zoomspeed="2" zoomoutpause="1" enabled="1" type="crossdissolve" blendtime="1" zoomin="0" softedge="0" delay="none" blendcolor="0x000000" zoomout="0"/>
-    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
-    <control simulatemass="1" speedwheel="1" lockedkeyboard="0" zoomcentercursor="1" invertcontrol="1" contextvr="1" hideabout="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" lockedmouse="0" contextprojections="0" rubberband="0" dblclickfullscreen="0" invertwheel="0"/>
+    <media>
+      <sound field="90.000" pan="-1.000" tiltsize="10.000" level="1.000" id="_background" mode="0" nodechangekeep="1" pansize="10.000" ambientlevel="0.000" loop="-1" tilt="-1.000" startmutedmobile="0">
+        <source url="media/TuongDai_MeThu.mp3" mono="0"/>
+      </sound>
+    </media>
+    <transition delay="none" enabled="1" softedge="0" zoomoutpause="1" type="crossdissolve" zoomin="0" blendcolor="0x000000" zoomfov="40" zoomout="0" zoomspeed="2" zoomafterinfov="140" blendtime="1" zoomafteroutfov="40"/>
+    <autorotate delay="5.00" enabled="1" nodedelay="0.00" speed="0.100" startloaded="0" noderandom="1" horizonfromdefview="0" useanimation="0" nodefilter="" returntohorizon="0.000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control lockedmouse="0" invertcontrol="1" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" hideabout="1" sensitivity="8" speedwheel="1" contextvr="0" simulatemass="1" invertwheel="0" dblclickfullscreen="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node1">
-    <input levelbias="0.400" leveltilesize="510" levelingpitch="0" levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="3600" height="3600">
-      <level predecode="0" preload="0" width="3600" height="3600"/>
-      <level predecode="0" preload="0" width="1800" height="1800"/>
-      <level predecode="0" preload="0" width="900" height="900"/>
-      <level predecode="1" preload="1" width="450" height="450"/>
+  <panorama id="node1" hideabout="1">
+    <input height="3600" leveltilesize="510" levelbias="0.400" width="3600" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelingpitch="0">
+      <level height="3600" width="3600" preload="0" predecode="0"/>
+      <level height="1800" width="1800" preload="0" predecode="0"/>
+      <level height="900" width="900" preload="0" predecode="0"/>
+      <level height="450" width="450" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="-233.402">
-      <start pan="0" tilt="0" projection="4" fov="100"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+    <view pannorth="-233.402" fovmode="2">
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
       <min pan="0" tilt="-90" fovpixel="1"/>
-      <max fovfisheye="360" pan="360" tilt="90" fovstereographic="330" scaletofit="1" fov="100"/>
+      <max pan="360" fovstereographic="330" fovfisheye="360" scaletofit="1" tilt="90" fov="100"/>
     </view>
-    <userdata info="" heading="-233.402" latitude="15.584305" datetime="5/5/2025 12:26 PM" tags="MeThu" nodeid="node1" altitude="7.87" copyright="" title="Điểm drone 02" longitude="108.513056" source="" author="" comment="" customnodeid="" description=""/>
-    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
-      <label wordwrap="1" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" borderalpha="1" border="1" borderradius="1" background="1" width="180" height="20" textcolor="0x000000" bordercolor="0x000000" textalpha="1"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" borderalpha="1" mode="0"/>
-      <hotspot skinid="ht_node_forward_1" pan="-215.92" tilt="12.43" distance="130.002" target="$fwd" id="Point01" url="{node7}" title="Điểm drone 01" description=""/>
-      <hotspot skinid="ht_node_forward_1" pan="-320.34" tilt="11.19" distance="20.7015" target="$fwd" id="Point02" url="{node13}" title="Điểm drone 13" description=""/>
-      <hotspot skinid="ht_node_forward_1" pan="-99.58" tilt="10.02" distance="94.5752" target="$fwd" id="Point03" url="{node9}" title="Điểm drone 09" description=""/>
-      <hotspot skinid="ht_node_forward_1" pan="-5.93" tilt="10.73" distance="154.156" target="$fwd" id="Point04" url="{node11}" title="Điểm drone 11" description=""/>
+    <userdata author="" latitude="15.584305" customnodeid="" title="Điểm drone 02" info="" tags="MeThu" longitude="108.513056" altitude="7.87" heading="-233.402" source="" nodeid="node1" comment="" datetime="5/5/2025 12:26 PM" copyright="" description=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label borderradius="1" backgroundalpha="1" height="20" enabled="1" bordercolor="0x000000" wordwrap="1" borderalpha="1" width="180" textcolor="0x000000" textalpha="1" backgroundcolor="0xffffff" border="1" background="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="0"/>
+      <hotspot url="{node7}" pan="-215.92" target="$fwd" title="Điểm drone 01" skinid="ht_node_UAV" id="Point01" distance="130.002" tilt="12.43" description=""/>
+      <hotspot url="{node13}" pan="-320.34" target="$fwd" title="Điểm drone 13" skinid="ht_node_UAV" id="Point02" distance="20.7015" tilt="11.19" description=""/>
+      <hotspot url="{node9}" pan="-99.58" target="$fwd" title="Điểm drone 09" skinid="ht_node_UAV" id="Point03" distance="94.5752" tilt="10.02" description=""/>
+      <hotspot url="{node11}" pan="-5.93" target="$fwd" title="Điểm drone 11" skinid="ht_node_UAV" id="Point04" distance="154.156" tilt="10.73" description=""/>
     </hotspots>
-    <media/>
-    <transition zoomafteroutfov="40" zoomfov="40" zoomafterinfov="140" zoomspeed="2" zoomoutpause="1" enabled="1" type="crossdissolve" blendtime="1" zoomin="0" softedge="0" delay="none" blendcolor="0x000000" zoomout="0"/>
-    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
-    <control simulatemass="1" speedwheel="1" lockedkeyboard="0" zoomcentercursor="1" invertcontrol="1" contextvr="1" hideabout="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" lockedmouse="0" contextprojections="0" rubberband="0" dblclickfullscreen="0" invertwheel="0"/>
+    <media>
+      <sound field="90.000" pan="-1.000" tiltsize="10.000" level="1.000" id="_background" mode="0" nodechangekeep="1" pansize="10.000" ambientlevel="0.000" loop="-1" tilt="-1.000" startmutedmobile="0">
+        <source url="media/TuongDai_MeThu.mp3" mono="0"/>
+      </sound>
+    </media>
+    <transition delay="none" enabled="1" softedge="0" zoomoutpause="1" type="crossdissolve" zoomin="0" blendcolor="0x000000" zoomfov="40" zoomout="0" zoomspeed="2" zoomafterinfov="140" blendtime="1" zoomafteroutfov="40"/>
+    <autorotate delay="5.00" enabled="1" nodedelay="0.00" speed="0.100" startloaded="0" noderandom="1" horizonfromdefview="0" useanimation="0" nodefilter="" returntohorizon="0.000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control lockedmouse="0" invertcontrol="1" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" hideabout="1" sensitivity="8" speedwheel="1" contextvr="0" simulatemass="1" invertwheel="0" dblclickfullscreen="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node2">
-    <input levelbias="0.400" leveltilesize="510" levelingpitch="0" levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="3600" height="3600">
-      <level predecode="0" preload="0" width="3600" height="3600"/>
-      <level predecode="0" preload="0" width="1800" height="1800"/>
-      <level predecode="0" preload="0" width="900" height="900"/>
-      <level predecode="1" preload="1" width="450" height="450"/>
+  <panorama id="node2" hideabout="1">
+    <input height="3600" leveltilesize="510" levelbias="0.400" width="3600" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelingpitch="0">
+      <level height="3600" width="3600" preload="0" predecode="0"/>
+      <level height="1800" width="1800" preload="0" predecode="0"/>
+      <level height="900" width="900" preload="0" predecode="0"/>
+      <level height="450" width="450" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="-166.66">
-      <start pan="-73.75" tilt="-3.7" projection="4" fov="112.97"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+    <view pannorth="-166.66" fovmode="2">
+      <start projection="4" pan="-73.75" tilt="-3.7" fov="112.97"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
       <min pan="0" tilt="-90" fovpixel="1"/>
-      <max fovfisheye="360" pan="360" tilt="90" fovstereographic="330" scaletofit="1" fov="100"/>
+      <max pan="360" fovstereographic="330" fovfisheye="360" scaletofit="1" tilt="90" fov="100"/>
     </view>
-    <userdata info="" heading="-166.66" latitude="15.583921" datetime="5/5/2025 3:17 PM" tags="MeThu" nodeid="node2" altitude="29.50" copyright="" title="Điểm drone 03" longitude="108.511165" source="" author="" comment="" customnodeid="" description=""/>
-    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
-      <label wordwrap="1" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" borderalpha="1" border="1" borderradius="1" background="1" width="180" height="20" textcolor="0x000000" bordercolor="0x000000" textalpha="1"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" borderalpha="1" mode="0"/>
-      <hotspot skinid="ht_node_forward_1" pan="-128.13" tilt="4.59" distance="47.7753" target="$fwd" id="Point01" url="{node3}" title="Điểm drone 04" description=""/>
-      <hotspot skinid="ht_node_forward_1" pan="-266.59" tilt="5.02" distance="136.606" target="$fwd" id="Point02" url="{node9}" title="Điểm drone 09" description=""/>
-      <hotspot skinid="ht_node_forward_1" pan="-212.82" tilt="6.52" distance="203.015" target="$fwd" id="Point03" url="{node7}" title="Điểm drone 01" description=""/>
-      <hotspot skinid="ht_node_forward_1" pan="-164.85" tilt="4.5" distance="123.324" target="$fwd" id="Point04" url="{node5}" title="Điểm drone 06" description=""/>
-      <hotspot skinid="ht_node_forward_1" pan="-204.53" tilt="4.47" distance="177.992" target="$fwd" id="Point05" url="{node14}" title="Điểm drone 14" description=""/>
-      <hotspot skinid="ht_node" pan="-181.683" tilt="-41.9" distance="18.2794" target="$fwd" id="Point06" url="{node40}" title="Điểm mặt đất 01" description=""/>
-      <hotspot skinid="ht_node" pan="-165.626" tilt="-34.43" distance="24.2414" target="$fwd" id="Point07" url="{node41}" title="Điểm mặt đất 02" description=""/>
-      <hotspot skinid="ht_url" pan="-317.36" url="https://thaibinhtran-vr360.github.io/MeThu_Inside_2/" tilt="-34.68" title="Vào tham quan bảo tàng" target="_top" id="Point08" description=""/>
-      <hotspot skinid="ht_node_forward_1" pan="-201.882" tilt="0" distance="93.7828" target="$fwd" id="Point09" url="{node8}" title="Điểm drone 08" description=""/>
+    <userdata author="" latitude="15.583921" customnodeid="" title="Điểm drone 03" info="" tags="MeThu" longitude="108.511165" altitude="29.50" heading="-166.66" source="" nodeid="node2" comment="" datetime="5/5/2025 3:17 PM" copyright="" description=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label borderradius="1" backgroundalpha="1" height="20" enabled="1" bordercolor="0x000000" wordwrap="1" borderalpha="1" width="180" textcolor="0x000000" textalpha="1" backgroundcolor="0xffffff" border="1" background="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="0"/>
+      <hotspot url="{node3}" pan="-128.13" target="$fwd" title="Điểm drone 04" skinid="ht_node_UAV" id="Point01" distance="47.7753" tilt="4.59" description=""/>
+      <hotspot url="{node9}" pan="-266.59" target="$fwd" title="Điểm drone 09" skinid="ht_node_UAV" id="Point02" distance="136.606" tilt="5.02" description=""/>
+      <hotspot url="{node7}" pan="-212.82" target="$fwd" title="Điểm drone 01" skinid="ht_node_UAV" id="Point03" distance="203.015" tilt="6.52" description=""/>
+      <hotspot url="{node5}" pan="-164.94" target="$fwd" title="Điểm drone 06" skinid="ht_node_UAV" id="Point04" distance="123.324" tilt="4.5" description=""/>
+      <hotspot url="{node14}" pan="-204.53" target="$fwd" title="Điểm drone 14" skinid="ht_node_UAV" id="Point05" distance="177.992" tilt="4.47" description=""/>
+      <hotspot url="{node40}" pan="-181.68" target="$fwd" title="Điểm mặt đất 01" skinid="ht_node_3D" id="Point06" distance="18.2794" tilt="-41.9" description=""/>
+      <hotspot url="{node41}" pan="-165.63" target="$fwd" title="Điểm mặt đất 02" skinid="ht_node_3D" id="Point07" distance="24.2414" tilt="-34.43" description=""/>
+      <hotspot url="https://thaibinhtran-vr360.github.io/MeThu_Inside_2/" pan="-317.36" target="_top" title="Vào tham quan bảo tàng" skinid="ht_url" id="Point08" tilt="-34.68" description=""/>
+      <hotspot url="{node8}" pan="-201.882" target="$fwd" title="Điểm drone 08" skinid="ht_node_UAV" id="Point09" distance="93.7828" tilt="0" description=""/>
     </hotspots>
-    <media/>
-    <transition zoomafteroutfov="40" zoomfov="40" zoomafterinfov="140" zoomspeed="2" zoomoutpause="1" enabled="1" type="crossdissolve" blendtime="1" zoomin="0" softedge="0" delay="none" blendcolor="0x000000" zoomout="0"/>
-    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
-    <control simulatemass="1" speedwheel="1" lockedkeyboard="0" zoomcentercursor="1" invertcontrol="1" contextvr="1" hideabout="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" lockedmouse="0" contextprojections="0" rubberband="0" dblclickfullscreen="0" invertwheel="0"/>
+    <media>
+      <sound field="90.000" pan="-1.000" tiltsize="10.000" level="1.000" id="_background" mode="0" nodechangekeep="1" pansize="10.000" ambientlevel="0.000" loop="-1" tilt="-1.000" startmutedmobile="0">
+        <source url="media/TuongDai_MeThu.mp3" mono="0"/>
+      </sound>
+    </media>
+    <transition delay="none" enabled="1" softedge="0" zoomoutpause="1" type="crossdissolve" zoomin="0" blendcolor="0x000000" zoomfov="40" zoomout="0" zoomspeed="2" zoomafterinfov="140" blendtime="1" zoomafteroutfov="40"/>
+    <autorotate delay="5.00" enabled="1" nodedelay="0.00" speed="0.100" startloaded="0" noderandom="1" horizonfromdefview="0" useanimation="0" nodefilter="" returntohorizon="0.000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control lockedmouse="0" invertcontrol="1" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" hideabout="1" sensitivity="8" speedwheel="1" contextvr="0" simulatemass="1" invertwheel="0" dblclickfullscreen="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node3">
-    <input levelbias="0.400" leveltilesize="510" levelingpitch="0" levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="3600" height="3600">
-      <level predecode="0" preload="0" width="3600" height="3600"/>
-      <level predecode="0" preload="0" width="1800" height="1800"/>
-      <level predecode="0" preload="0" width="900" height="900"/>
-      <level predecode="1" preload="1" width="450" height="450"/>
+  <panorama id="node3" hideabout="1">
+    <input height="3600" leveltilesize="510" levelbias="0.400" width="3600" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelingpitch="0">
+      <level height="3600" width="3600" preload="0" predecode="0"/>
+      <level height="1800" width="1800" preload="0" predecode="0"/>
+      <level height="900" width="900" preload="0" predecode="0"/>
+      <level height="450" width="450" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="-149.901">
-      <start pan="30.29" tilt="0.5" projection="4" fov="112.97"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+    <view pannorth="-149.901" fovmode="2">
+      <start projection="4" pan="30.29" tilt="0.5" fov="112.97"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
       <min pan="0" tilt="-90" fovpixel="1"/>
-      <max fovfisheye="360" pan="360" tilt="90" fovstereographic="330" scaletofit="1" fov="100"/>
+      <max pan="360" fovstereographic="330" fovfisheye="360" scaletofit="1" tilt="90" fov="100"/>
     </view>
-    <userdata info="" heading="-149.901" latitude="15.584257" datetime="5/5/2025 3:18 PM" tags="MeThu" nodeid="node3" altitude="28.99" copyright="" title="Điểm drone 04" longitude="108.510887" source="" author="" comment="" customnodeid="" description=""/>
-    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
-      <label wordwrap="1" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" borderalpha="1" border="1" borderradius="1" background="1" width="180" height="20" textcolor="0x000000" bordercolor="0x000000" textalpha="1"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" borderalpha="1" mode="0"/>
-      <hotspot skinid="ht_node_forward_1" pan="-145.04" tilt="6.13" distance="39.3831" target="$fwd" id="Point01" url="{node4}" title="Điểm drone 05" description=""/>
-      <hotspot skinid="ht_node_forward_1" pan="-291.92" tilt="7.8" distance="47.7753" target="$fwd" id="Point02" url="{node2}" title="Điểm drone 03" description=""/>
-      <hotspot skinid="ht_node" pan="-263.204" tilt="-25.02" distance="38.1518" target="$fwd" id="Point03" url="{node40}" title="Điểm mặt đất 01" description=""/>
-      <hotspot skinid="ht_node" pan="-259.891" tilt="-30.16" distance="32.7347" target="$fwd" id="Point04" url="{node41}" title="Điểm mặt đất 02" description=""/>
-      <hotspot skinid="ht_node_forward_1" pan="-214.82" tilt="4.78" distance="92.5959" target="$fwd" id="Point05" url="{node8}" title="Điểm drone 08" description=""/>
-      <hotspot skinid="ht_url" pan="-294.1" url="https://thaibinhtran-vr360.github.io/MeThu_Inside_2/" tilt="-10.57" title="Vào tham quan bảo tàng" target="_blank" id="Point06" description=""/>
+    <userdata author="" latitude="15.584257" customnodeid="" title="Điểm drone 04" info="" tags="MeThu" longitude="108.510887" altitude="28.99" heading="-149.901" source="" nodeid="node3" comment="" datetime="5/5/2025 3:18 PM" copyright="" description=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label borderradius="1" backgroundalpha="1" height="20" enabled="1" bordercolor="0x000000" wordwrap="1" borderalpha="1" width="180" textcolor="0x000000" textalpha="1" backgroundcolor="0xffffff" border="1" background="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="0"/>
+      <hotspot url="{node4}" pan="-145.04" target="$fwd" title="Điểm drone 05" skinid="ht_node_UAV" id="Point01" distance="39.3831" tilt="6.13" description=""/>
+      <hotspot url="{node2}" pan="-291.92" target="$fwd" title="Điểm drone 03" skinid="ht_node_UAV" id="Point02" distance="47.7753" tilt="7.8" description=""/>
+      <hotspot url="{node40}" pan="-262.58" target="$fwd" title="Điểm mặt đất 01" skinid="ht_node_3D" id="Point03" distance="38.1518" tilt="-24.99" description=""/>
+      <hotspot url="{node41}" pan="-259.89" target="$fwd" title="Điểm mặt đất 02" skinid="ht_node_3D" id="Point04" distance="32.7347" tilt="-30.16" description=""/>
+      <hotspot url="{node8}" pan="-214.82" target="$fwd" title="Điểm drone 08" skinid="ht_node_UAV" id="Point05" distance="92.5959" tilt="4.78" description=""/>
+      <hotspot url="https://thaibinhtran-vr360.github.io/MeThu_Inside_2/" pan="-294.01" target="_top" title="Vào tham quan bảo tàng" skinid="ht_url" id="Point06" tilt="-10.68" description=""/>
     </hotspots>
-    <media/>
-    <transition zoomafteroutfov="40" zoomfov="40" zoomafterinfov="140" zoomspeed="2" zoomoutpause="1" enabled="1" type="crossdissolve" blendtime="1" zoomin="0" softedge="0" delay="none" blendcolor="0x000000" zoomout="0"/>
-    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
-    <control simulatemass="1" speedwheel="1" lockedkeyboard="0" zoomcentercursor="1" invertcontrol="1" contextvr="1" hideabout="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" lockedmouse="0" contextprojections="0" rubberband="0" dblclickfullscreen="0" invertwheel="0"/>
+    <media>
+      <sound field="90.000" pan="-1.000" tiltsize="10.000" level="1.000" id="_background" mode="0" nodechangekeep="1" pansize="10.000" ambientlevel="0.000" loop="-1" tilt="-1.000" startmutedmobile="0">
+        <source url="media/TuongDai_MeThu.mp3" mono="0"/>
+      </sound>
+    </media>
+    <transition delay="none" enabled="1" softedge="0" zoomoutpause="1" type="crossdissolve" zoomin="0" blendcolor="0x000000" zoomfov="40" zoomout="0" zoomspeed="2" zoomafterinfov="140" blendtime="1" zoomafteroutfov="40"/>
+    <autorotate delay="5.00" enabled="1" nodedelay="0.00" speed="0.100" startloaded="0" noderandom="1" horizonfromdefview="0" useanimation="0" nodefilter="" returntohorizon="0.000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control lockedmouse="0" invertcontrol="1" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" hideabout="1" sensitivity="8" speedwheel="1" contextvr="0" simulatemass="1" invertwheel="0" dblclickfullscreen="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node4">
-    <input levelbias="0.400" leveltilesize="510" levelingpitch="0" levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="3600" height="3600">
-      <level predecode="0" preload="0" width="3600" height="3600"/>
-      <level predecode="0" preload="0" width="1800" height="1800"/>
-      <level predecode="0" preload="0" width="900" height="900"/>
-      <level predecode="1" preload="1" width="450" height="450"/>
+  <panorama id="node4" hideabout="1">
+    <input height="3600" leveltilesize="510" levelbias="0.400" width="3600" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelingpitch="0">
+      <level height="3600" width="3600" preload="0" predecode="0"/>
+      <level height="1800" width="1800" preload="0" predecode="0"/>
+      <level height="900" width="900" preload="0" predecode="0"/>
+      <level height="450" width="450" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="-25.7509">
-      <start pan="0" tilt="0" projection="4" fov="100"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+    <view pannorth="-25.7509" fovmode="2">
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
       <min pan="0" tilt="-90" fovpixel="1"/>
-      <max fovfisheye="360" pan="360" tilt="90" fovstereographic="330" scaletofit="1" fov="100"/>
+      <max pan="360" fovstereographic="330" fovfisheye="360" scaletofit="1" tilt="90" fov="100"/>
     </view>
-    <userdata info="" heading="-25.7509" latitude="15.584610" datetime="5/5/2025 3:20 PM" tags="MeThu" nodeid="node4" altitude="30.22" copyright="" title="Điểm drone 05" longitude="108.510857" source="" author="" comment="" customnodeid="" description=""/>
-    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
-      <label wordwrap="1" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" borderalpha="1" border="1" borderradius="1" background="1" width="180" height="20" textcolor="0x000000" bordercolor="0x000000" textalpha="1"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" borderalpha="1" mode="0"/>
-      <hotspot skinid="ht_node_forward_1" pan="-62.05" tilt="7.71" distance="58.0561" target="$fwd" id="Point01" url="{node5}" title="Điểm drone 06" description=""/>
-      <hotspot skinid="ht_node_forward_1" pan="-207.52" tilt="6.1" distance="39.3831" target="$fwd" id="Point02" url="{node3}" title="Điểm drone 04" description=""/>
+    <userdata author="" latitude="15.584610" customnodeid="" title="Điểm drone 05" info="" tags="MeThu" longitude="108.510857" altitude="30.22" heading="-25.7509" source="" nodeid="node4" comment="" datetime="5/5/2025 3:20 PM" copyright="" description=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label borderradius="1" backgroundalpha="1" height="20" enabled="1" bordercolor="0x000000" wordwrap="1" borderalpha="1" width="180" textcolor="0x000000" textalpha="1" backgroundcolor="0xffffff" border="1" background="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="0"/>
+      <hotspot url="{node5}" pan="-62.05" target="$fwd" title="Điểm drone 06" skinid="ht_node_UAV" id="Point01" distance="58.0561" tilt="7.71" description=""/>
+      <hotspot url="{node3}" pan="-207.52" target="$fwd" title="Điểm drone 04" skinid="ht_node_UAV" id="Point02" distance="39.3831" tilt="6.1" description=""/>
     </hotspots>
-    <media/>
-    <transition zoomafteroutfov="40" zoomfov="40" zoomafterinfov="140" zoomspeed="2" zoomoutpause="1" enabled="1" type="crossdissolve" blendtime="1" zoomin="0" softedge="0" delay="none" blendcolor="0x000000" zoomout="0"/>
-    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
-    <control simulatemass="1" speedwheel="1" lockedkeyboard="0" zoomcentercursor="1" invertcontrol="1" contextvr="1" hideabout="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" lockedmouse="0" contextprojections="0" rubberband="0" dblclickfullscreen="0" invertwheel="0"/>
+    <media>
+      <sound field="90.000" pan="-1.000" tiltsize="10.000" level="1.000" id="_background" mode="0" nodechangekeep="1" pansize="10.000" ambientlevel="0.000" loop="-1" tilt="-1.000" startmutedmobile="0">
+        <source url="media/TuongDai_MeThu.mp3" mono="0"/>
+      </sound>
+    </media>
+    <transition delay="none" enabled="1" softedge="0" zoomoutpause="1" type="crossdissolve" zoomin="0" blendcolor="0x000000" zoomfov="40" zoomout="0" zoomspeed="2" zoomafterinfov="140" blendtime="1" zoomafteroutfov="40"/>
+    <autorotate delay="5.00" enabled="1" nodedelay="0.00" speed="0.100" startloaded="0" noderandom="1" horizonfromdefview="0" useanimation="0" nodefilter="" returntohorizon="0.000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control lockedmouse="0" invertcontrol="1" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" hideabout="1" sensitivity="8" speedwheel="1" contextvr="0" simulatemass="1" invertwheel="0" dblclickfullscreen="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node5">
-    <input levelbias="0.400" leveltilesize="510" levelingpitch="0" levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="3600" height="3600">
-      <level predecode="0" preload="0" width="3600" height="3600"/>
-      <level predecode="0" preload="0" width="1800" height="1800"/>
-      <level predecode="0" preload="0" width="900" height="900"/>
-      <level predecode="1" preload="1" width="450" height="450"/>
+  <panorama id="node5" hideabout="1">
+    <input height="3600" leveltilesize="510" levelbias="0.400" width="3600" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelingpitch="0">
+      <level height="3600" width="3600" preload="0" predecode="0"/>
+      <level height="1800" width="1800" preload="0" predecode="0"/>
+      <level height="900" width="900" preload="0" predecode="0"/>
+      <level height="450" width="450" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="54.2731">
-      <start pan="0" tilt="0" projection="4" fov="100"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+    <view pannorth="54.2731" fovmode="2">
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
       <min pan="0" tilt="-90" fovpixel="1"/>
-      <max fovfisheye="360" pan="360" tilt="90" fovstereographic="330" scaletofit="1" fov="100"/>
+      <max pan="360" fovstereographic="330" fovfisheye="360" scaletofit="1" tilt="90" fov="100"/>
     </view>
-    <userdata info="" heading="54.2731" latitude="15.585030" datetime="5/5/2025 3:21 PM" tags="MeThu" nodeid="node5" altitude="29.49" copyright="" title="Điểm drone 06" longitude="108.511179" source="" author="" comment="" customnodeid="" description=""/>
-    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
-      <label wordwrap="1" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" borderalpha="1" border="1" borderradius="1" background="1" width="180" height="20" textcolor="0x000000" bordercolor="0x000000" textalpha="1"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" borderalpha="1" mode="0"/>
-      <hotspot skinid="ht_node_forward_1" pan="6.79893" tilt="0" distance="94.757" target="$fwd" id="Point01" url="{node6}" title="Điểm drone 07" description=""/>
-      <hotspot skinid="ht_node_forward_1" pan="192.19" tilt="6.62" distance="58.0561" target="$fwd" id="Point02" url="{node4}" title="Điểm drone 05" description=""/>
-      <hotspot skinid="ht_node_forward_1" pan="-23.1026" tilt="0" distance="135.334" target="$fwd" id="Point03" url="{node7}" title="Điểm drone 01" description=""/>
-      <hotspot skinid="ht_node_forward_1" pan="234.36" tilt="9.57" distance="123.324" target="$fwd" id="Point04" url="{node2}" title="Điểm drone 03" description=""/>
+    <userdata author="" latitude="15.585030" customnodeid="" title="Điểm drone 06" info="" tags="MeThu" longitude="108.511179" altitude="29.49" heading="54.2731" source="" nodeid="node5" comment="" datetime="5/5/2025 3:21 PM" copyright="" description=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label borderradius="1" backgroundalpha="1" height="20" enabled="1" bordercolor="0x000000" wordwrap="1" borderalpha="1" width="180" textcolor="0x000000" textalpha="1" backgroundcolor="0xffffff" border="1" background="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="0"/>
+      <hotspot url="{node6}" pan="6.79893" target="$fwd" title="Điểm drone 07" skinid="ht_node_UAV" id="Point01" distance="94.757" tilt="0" description=""/>
+      <hotspot url="{node4}" pan="192.08" target="$fwd" title="Điểm drone 05" skinid="ht_node_UAV" id="Point02" distance="58.0561" tilt="6.62" description=""/>
+      <hotspot url="{node7}" pan="-23.1026" target="$fwd" title="Điểm drone 01" skinid="ht_node_UAV" id="Point03" distance="135.334" tilt="0" description=""/>
+      <hotspot url="{node2}" pan="234.36" target="$fwd" title="Điểm drone 03" skinid="ht_node_UAV" id="Point04" distance="123.324" tilt="9.57" description=""/>
     </hotspots>
-    <media/>
-    <transition zoomafteroutfov="40" zoomfov="40" zoomafterinfov="140" zoomspeed="2" zoomoutpause="1" enabled="1" type="crossdissolve" blendtime="1" zoomin="0" softedge="0" delay="none" blendcolor="0x000000" zoomout="0"/>
-    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
-    <control simulatemass="1" speedwheel="1" lockedkeyboard="0" zoomcentercursor="1" invertcontrol="1" contextvr="1" hideabout="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" lockedmouse="0" contextprojections="0" rubberband="0" dblclickfullscreen="0" invertwheel="0"/>
+    <media>
+      <sound field="90.000" pan="-1.000" tiltsize="10.000" level="1.000" id="_background" mode="0" nodechangekeep="1" pansize="10.000" ambientlevel="0.000" loop="-1" tilt="-1.000" startmutedmobile="0">
+        <source url="media/TuongDai_MeThu.mp3" mono="0"/>
+      </sound>
+    </media>
+    <transition delay="none" enabled="1" softedge="0" zoomoutpause="1" type="crossdissolve" zoomin="0" blendcolor="0x000000" zoomfov="40" zoomout="0" zoomspeed="2" zoomafterinfov="140" blendtime="1" zoomafteroutfov="40"/>
+    <autorotate delay="5.00" enabled="1" nodedelay="0.00" speed="0.100" startloaded="0" noderandom="1" horizonfromdefview="0" useanimation="0" nodefilter="" returntohorizon="0.000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control lockedmouse="0" invertcontrol="1" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" hideabout="1" sensitivity="8" speedwheel="1" contextvr="0" simulatemass="1" invertwheel="0" dblclickfullscreen="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node6">
-    <input levelbias="0.400" leveltilesize="510" levelingpitch="0" levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="3600" height="3600">
-      <level predecode="0" preload="0" width="3600" height="3600"/>
-      <level predecode="0" preload="0" width="1800" height="1800"/>
-      <level predecode="0" preload="0" width="900" height="900"/>
-      <level predecode="1" preload="1" width="450" height="450"/>
+  <panorama id="node6" hideabout="1">
+    <input height="3600" leveltilesize="510" levelbias="0.400" width="3600" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelingpitch="0">
+      <level height="3600" width="3600" preload="0" predecode="0"/>
+      <level height="1800" width="1800" preload="0" predecode="0"/>
+      <level height="900" width="900" preload="0" predecode="0"/>
+      <level height="450" width="450" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="-134.621">
-      <start pan="0" tilt="0" projection="4" fov="100"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+    <view pannorth="-134.621" fovmode="2">
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
       <min pan="0" tilt="-90" fovpixel="1"/>
-      <max fovfisheye="360" pan="360" tilt="90" fovstereographic="330" scaletofit="1" fov="100"/>
+      <max pan="360" fovstereographic="330" fovfisheye="360" scaletofit="1" tilt="90" fov="100"/>
     </view>
-    <userdata info="" heading="-134.621" latitude="15.585606" datetime="5/5/2025 3:22 PM" tags="MeThu" nodeid="node6" altitude="31.38" copyright="" title="Điểm drone 07" longitude="108.511831" source="" author="" comment="" customnodeid="" description=""/>
-    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
-      <label wordwrap="1" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" borderalpha="1" border="1" borderradius="1" background="1" width="180" height="20" textcolor="0x000000" bordercolor="0x000000" textalpha="1"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" borderalpha="1" mode="0"/>
-      <hotspot skinid="ht_node_forward_1" pan="-251.46" tilt="5.31" distance="71.1381" target="$fwd" id="Point01" url="{node7}" title="Điểm drone 01" description=""/>
-      <hotspot skinid="ht_node_forward_1" pan="-4.27" tilt="3.96" distance="94.757" target="$fwd" id="Point02" url="{node5}" title="Điểm drone 06" description=""/>
+    <userdata author="" latitude="15.585606" customnodeid="" title="Điểm drone 07" info="" tags="MeThu" longitude="108.511831" altitude="31.38" heading="-134.621" source="" nodeid="node6" comment="" datetime="5/5/2025 3:22 PM" copyright="" description=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label borderradius="1" backgroundalpha="1" height="20" enabled="1" bordercolor="0x000000" wordwrap="1" borderalpha="1" width="180" textcolor="0x000000" textalpha="1" backgroundcolor="0xffffff" border="1" background="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="0"/>
+      <hotspot url="{node7}" pan="-251.46" target="$fwd" title="Điểm drone 01" skinid="ht_node_UAV" id="Point01" distance="71.1381" tilt="5.31" description=""/>
+      <hotspot url="{node5}" pan="-4.27" target="$fwd" title="Điểm drone 06" skinid="ht_node_UAV" id="Point02" distance="94.757" tilt="3.96" description=""/>
     </hotspots>
-    <media/>
-    <transition zoomafteroutfov="40" zoomfov="40" zoomafterinfov="140" zoomspeed="2" zoomoutpause="1" enabled="1" type="crossdissolve" blendtime="1" zoomin="0" softedge="0" delay="none" blendcolor="0x000000" zoomout="0"/>
-    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
-    <control simulatemass="1" speedwheel="1" lockedkeyboard="0" zoomcentercursor="1" invertcontrol="1" contextvr="1" hideabout="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" lockedmouse="0" contextprojections="0" rubberband="0" dblclickfullscreen="0" invertwheel="0"/>
+    <media>
+      <sound field="90.000" pan="-1.000" tiltsize="10.000" level="1.000" id="_background" mode="0" nodechangekeep="1" pansize="10.000" ambientlevel="0.000" loop="-1" tilt="-1.000" startmutedmobile="0">
+        <source url="media/TuongDai_MeThu.mp3" mono="0"/>
+      </sound>
+    </media>
+    <transition delay="none" enabled="1" softedge="0" zoomoutpause="1" type="crossdissolve" zoomin="0" blendcolor="0x000000" zoomfov="40" zoomout="0" zoomspeed="2" zoomafterinfov="140" blendtime="1" zoomafteroutfov="40"/>
+    <autorotate delay="5.00" enabled="1" nodedelay="0.00" speed="0.100" startloaded="0" noderandom="1" horizonfromdefview="0" useanimation="0" nodefilter="" returntohorizon="0.000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control lockedmouse="0" invertcontrol="1" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" hideabout="1" sensitivity="8" speedwheel="1" contextvr="0" simulatemass="1" invertwheel="0" dblclickfullscreen="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node8">
-    <input levelbias="0.400" leveltilesize="510" levelingpitch="0" levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="3600" height="3600">
-      <level predecode="0" preload="0" width="3600" height="3600"/>
-      <level predecode="0" preload="0" width="1800" height="1800"/>
-      <level predecode="0" preload="0" width="900" height="900"/>
-      <level predecode="1" preload="1" width="450" height="450"/>
+  <panorama id="node8" hideabout="1">
+    <input height="3600" leveltilesize="510" levelbias="0.400" width="3600" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelingpitch="0">
+      <level height="3600" width="3600" preload="0" predecode="0"/>
+      <level height="1800" width="1800" preload="0" predecode="0"/>
+      <level height="900" width="900" preload="0" predecode="0"/>
+      <level height="450" width="450" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="-130.99">
-      <start pan="0" tilt="0" projection="4" fov="100"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+    <view pannorth="-130.99" fovmode="2">
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
       <min pan="0" tilt="-90" fovpixel="1"/>
-      <max fovfisheye="360" pan="360" tilt="90" fovstereographic="330" scaletofit="1" fov="100"/>
+      <max pan="360" fovstereographic="330" fovfisheye="360" scaletofit="1" tilt="90" fov="100"/>
     </view>
-    <userdata info="" heading="-130.99" latitude="15.584610" datetime="5/5/2025 3:24 PM" tags="MeThu" nodeid="node8" altitude="39.70" copyright="" title="Điểm drone 08" longitude="108.511670" source="" author="" comment="" customnodeid="" description=""/>
-    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
-      <label wordwrap="1" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" borderalpha="1" border="1" borderradius="1" background="1" width="180" height="20" textcolor="0x000000" bordercolor="0x000000" textalpha="1"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" borderalpha="1" mode="0"/>
-      <hotspot skinid="ht_node_forward_1" pan="-177.164" tilt="0" distance="110.157" target="$fwd" id="Point01" url="{node7}" title="Điểm drone 01" description=""/>
-      <hotspot skinid="ht_drone_1" pan="-15.9088" tilt="0" distance="92.5959" target="$fwd" id="Point03" url="{node3}" title="Điểm drone 04" description=""/>
-      <hotspot skinid="ht_node_forward_1" pan="13.7878" tilt="0" distance="93.7828" target="$fwd" id="Point04" url="{node2}" title="Điểm drone 03" description=""/>
+    <userdata author="" latitude="15.584610" customnodeid="" title="Điểm drone 08" info="" tags="MeThu" longitude="108.511670" altitude="39.70" heading="-130.99" source="" nodeid="node8" comment="" datetime="5/5/2025 3:24 PM" copyright="" description=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label borderradius="1" backgroundalpha="1" height="20" enabled="1" bordercolor="0x000000" wordwrap="1" borderalpha="1" width="180" textcolor="0x000000" textalpha="1" backgroundcolor="0xffffff" border="1" background="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="0"/>
+      <hotspot url="{node7}" pan="-177.164" target="$fwd" title="Điểm drone 01" skinid="ht_node_UAV" id="Point01" distance="110.157" tilt="0" description=""/>
+      <hotspot url="{node3}" pan="-15.9088" target="$fwd" title="Điểm drone 04" skinid="ht_node_UAV" id="Point03" distance="92.5959" tilt="0" description=""/>
+      <hotspot url="{node2}" pan="13.7878" target="$fwd" title="Điểm drone 03" skinid="ht_node_UAV" id="Point04" distance="93.7828" tilt="0" description=""/>
     </hotspots>
-    <media/>
-    <transition zoomafteroutfov="40" zoomfov="40" zoomafterinfov="140" zoomspeed="2" zoomoutpause="1" enabled="1" type="crossdissolve" blendtime="1" zoomin="0" softedge="0" delay="none" blendcolor="0x000000" zoomout="0"/>
-    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
-    <control simulatemass="1" speedwheel="1" lockedkeyboard="0" zoomcentercursor="1" invertcontrol="1" contextvr="1" hideabout="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" lockedmouse="0" contextprojections="0" rubberband="0" dblclickfullscreen="0" invertwheel="0"/>
+    <media>
+      <sound field="90.000" pan="-1.000" tiltsize="10.000" level="1.000" id="_background" mode="0" nodechangekeep="1" pansize="10.000" ambientlevel="0.000" loop="-1" tilt="-1.000" startmutedmobile="0">
+        <source url="media/TuongDai_MeThu.mp3" mono="0"/>
+      </sound>
+    </media>
+    <transition delay="none" enabled="1" softedge="0" zoomoutpause="1" type="crossdissolve" zoomin="0" blendcolor="0x000000" zoomfov="40" zoomout="0" zoomspeed="2" zoomafterinfov="140" blendtime="1" zoomafteroutfov="40"/>
+    <autorotate delay="5.00" enabled="1" nodedelay="0.00" speed="0.100" startloaded="0" noderandom="1" horizonfromdefview="0" useanimation="0" nodefilter="" returntohorizon="0.000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control lockedmouse="0" invertcontrol="1" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" hideabout="1" sensitivity="8" speedwheel="1" contextvr="0" simulatemass="1" invertwheel="0" dblclickfullscreen="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node9">
-    <input levelbias="0.400" leveltilesize="510" levelingpitch="0" levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="3600" height="3600">
-      <level predecode="0" preload="0" width="3600" height="3600"/>
-      <level predecode="0" preload="0" width="1800" height="1800"/>
-      <level predecode="0" preload="0" width="900" height="900"/>
-      <level predecode="1" preload="1" width="450" height="450"/>
+  <panorama id="node9" hideabout="1">
+    <input height="3600" leveltilesize="510" levelbias="0.400" width="3600" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelingpitch="0">
+      <level height="3600" width="3600" preload="0" predecode="0"/>
+      <level height="1800" width="1800" preload="0" predecode="0"/>
+      <level height="900" width="900" preload="0" predecode="0"/>
+      <level height="450" width="450" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="-222.208">
-      <start pan="0" tilt="0" projection="4" fov="100"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+    <view pannorth="-222.208" fovmode="2">
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
       <min pan="0" tilt="-90" fovpixel="1"/>
-      <max fovfisheye="360" pan="360" tilt="90" fovstereographic="330" scaletofit="1" fov="100"/>
+      <max pan="360" fovstereographic="330" fovfisheye="360" scaletofit="1" tilt="90" fov="100"/>
     </view>
-    <userdata info="" heading="-222.208" latitude="15.583713" datetime="5/5/2025 3:25 PM" tags="MeThu" nodeid="node9" altitude="38.79" copyright="" title="Điểm drone 09" longitude="108.512422" source="" author="" comment="" customnodeid="" description=""/>
-    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
-      <label wordwrap="1" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" borderalpha="1" border="1" borderradius="1" background="1" width="180" height="20" textcolor="0x000000" bordercolor="0x000000" textalpha="1"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" borderalpha="1" mode="0"/>
-      <hotspot skinid="ht_node_forward_1" pan="-320.76" tilt="4.89" distance="187.419" target="$fwd" id="Point01" url="{node11}" title="Điểm drone 11" description=""/>
-      <hotspot skinid="ht_node_forward_1" pan="-141.96" tilt="0" distance="136.606" target="$fwd" id="Point02" url="{node2}" title="Điểm drone 03" description=""/>
-      <hotspot skinid="ht_node_forward_1" pan="-268.1" tilt="0" distance="94.5752" target="$fwd" id="Point03" url="{node1}" title="Điểm drone 02" description=""/>
-      <hotspot skinid="ht_node_forward_1" pan="-221.86" tilt="0" distance="176.025" target="$fwd" id="Point04" url="{node7}" title="Điểm drone 01" description=""/>
-      <hotspot skinid="ht_node_forward_1" pan="-2.68" tilt="3" distance="153.289" target="$fwd" id="Point05" url="{node10}" title="Điểm drone 10" description=""/>
+    <userdata author="" latitude="15.583713" customnodeid="" title="Điểm drone 09" info="" tags="MeThu" longitude="108.512422" altitude="38.79" heading="-222.208" source="" nodeid="node9" comment="" datetime="5/5/2025 3:25 PM" copyright="" description=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label borderradius="1" backgroundalpha="1" height="20" enabled="1" bordercolor="0x000000" wordwrap="1" borderalpha="1" width="180" textcolor="0x000000" textalpha="1" backgroundcolor="0xffffff" border="1" background="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="0"/>
+      <hotspot url="{node11}" pan="-320.76" target="$fwd" title="Điểm drone 11" skinid="ht_node_UAV" id="Point01" distance="187.419" tilt="4.89" description=""/>
+      <hotspot url="{node2}" pan="-141.96" target="$fwd" title="Điểm drone 03" skinid="ht_node_UAV" id="Point02" distance="136.606" tilt="0" description=""/>
+      <hotspot url="{node1}" pan="-268.1" target="$fwd" title="Điểm drone 02" skinid="ht_node_UAV" id="Point03" distance="94.5752" tilt="0" description=""/>
+      <hotspot url="{node7}" pan="-221.86" target="$fwd" title="Điểm drone 01" skinid="ht_node_UAV" id="Point04" distance="176.025" tilt="0" description=""/>
+      <hotspot url="{node10}" pan="-2.68" target="$fwd" title="Điểm drone 10" skinid="ht_node_UAV" id="Point05" distance="153.289" tilt="3" description=""/>
     </hotspots>
-    <media/>
-    <transition zoomafteroutfov="40" zoomfov="40" zoomafterinfov="140" zoomspeed="2" zoomoutpause="1" enabled="1" type="crossdissolve" blendtime="1" zoomin="0" softedge="0" delay="none" blendcolor="0x000000" zoomout="0"/>
-    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
-    <control simulatemass="1" speedwheel="1" lockedkeyboard="0" zoomcentercursor="1" invertcontrol="1" contextvr="1" hideabout="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" lockedmouse="0" contextprojections="0" rubberband="0" dblclickfullscreen="0" invertwheel="0"/>
+    <media>
+      <sound field="90.000" pan="-1.000" tiltsize="10.000" level="1.000" id="_background" mode="0" nodechangekeep="1" pansize="10.000" ambientlevel="0.000" loop="-1" tilt="-1.000" startmutedmobile="0">
+        <source url="media/TuongDai_MeThu.mp3" mono="0"/>
+      </sound>
+    </media>
+    <transition delay="none" enabled="1" softedge="0" zoomoutpause="1" type="crossdissolve" zoomin="0" blendcolor="0x000000" zoomfov="40" zoomout="0" zoomspeed="2" zoomafterinfov="140" blendtime="1" zoomafteroutfov="40"/>
+    <autorotate delay="5.00" enabled="1" nodedelay="0.00" speed="0.100" startloaded="0" noderandom="1" horizonfromdefview="0" useanimation="0" nodefilter="" returntohorizon="0.000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control lockedmouse="0" invertcontrol="1" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" hideabout="1" sensitivity="8" speedwheel="1" contextvr="0" simulatemass="1" invertwheel="0" dblclickfullscreen="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node10">
-    <input levelbias="0.400" leveltilesize="510" levelingpitch="0" levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="3600" height="3600">
-      <level predecode="0" preload="0" width="3600" height="3600"/>
-      <level predecode="0" preload="0" width="1800" height="1800"/>
-      <level predecode="0" preload="0" width="900" height="900"/>
-      <level predecode="1" preload="1" width="450" height="450"/>
+  <panorama id="node10" hideabout="1">
+    <input height="3600" leveltilesize="510" levelbias="0.400" width="3600" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelingpitch="0">
+      <level height="3600" width="3600" preload="0" predecode="0"/>
+      <level height="1800" width="1800" preload="0" predecode="0"/>
+      <level height="900" width="900" preload="0" predecode="0"/>
+      <level height="450" width="450" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="51.2865">
-      <start pan="0" tilt="0" projection="4" fov="100"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+    <view pannorth="51.2865" fovmode="2">
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
       <min pan="0" tilt="-90" fovpixel="1"/>
-      <max fovfisheye="360" pan="360" tilt="90" fovstereographic="330" scaletofit="1" fov="100"/>
+      <max pan="360" fovstereographic="330" fovfisheye="360" scaletofit="1" tilt="90" fov="100"/>
     </view>
-    <userdata info="" heading="51.2865" latitude="15.582666" datetime="5/5/2025 3:26 PM" tags="MeThu" nodeid="node10" altitude="43.30" copyright="" title="Điểm drone 10" longitude="108.513353" source="" author="" comment="" customnodeid="" description=""/>
-    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
-      <label wordwrap="1" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" borderalpha="1" border="1" borderradius="1" background="1" width="180" height="20" textcolor="0x000000" bordercolor="0x000000" textalpha="1"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" borderalpha="1" mode="0"/>
-      <hotspot skinid="ht_node_forward_1" pan="5.09" tilt="0" distance="116.792" target="$fwd" id="Point01" url="{node11}" title="Điểm drone 11" description=""/>
-      <hotspot skinid="ht_node_forward_1" pan="91.87" tilt="0" distance="153.289" target="$fwd" id="Point02" url="{node9}" title="Điểm drone 09" description=""/>
+    <userdata author="" latitude="15.582666" customnodeid="" title="Điểm drone 10" info="" tags="MeThu" longitude="108.513353" altitude="43.30" heading="51.2865" source="" nodeid="node10" comment="" datetime="5/5/2025 3:26 PM" copyright="" description=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label borderradius="1" backgroundalpha="1" height="20" enabled="1" bordercolor="0x000000" wordwrap="1" borderalpha="1" width="180" textcolor="0x000000" textalpha="1" backgroundcolor="0xffffff" border="1" background="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="0"/>
+      <hotspot url="{node11}" pan="5.09" target="$fwd" title="Điểm drone 11" skinid="ht_node_UAV" id="Point01" distance="116.792" tilt="0" description=""/>
+      <hotspot url="{node9}" pan="91.87" target="$fwd" title="Điểm drone 09" skinid="ht_node_UAV" id="Point02" distance="153.289" tilt="0" description=""/>
     </hotspots>
-    <media/>
-    <transition zoomafteroutfov="40" zoomfov="40" zoomafterinfov="140" zoomspeed="2" zoomoutpause="1" enabled="1" type="crossdissolve" blendtime="1" zoomin="0" softedge="0" delay="none" blendcolor="0x000000" zoomout="0"/>
-    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
-    <control simulatemass="1" speedwheel="1" lockedkeyboard="0" zoomcentercursor="1" invertcontrol="1" contextvr="1" hideabout="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" lockedmouse="0" contextprojections="0" rubberband="0" dblclickfullscreen="0" invertwheel="0"/>
+    <media>
+      <sound field="90.000" pan="-1.000" tiltsize="10.000" level="1.000" id="_background" mode="0" nodechangekeep="1" pansize="10.000" ambientlevel="0.000" loop="-1" tilt="-1.000" startmutedmobile="0">
+        <source url="media/TuongDai_MeThu.mp3" mono="0"/>
+      </sound>
+    </media>
+    <transition delay="none" enabled="1" softedge="0" zoomoutpause="1" type="crossdissolve" zoomin="0" blendcolor="0x000000" zoomfov="40" zoomout="0" zoomspeed="2" zoomafterinfov="140" blendtime="1" zoomafteroutfov="40"/>
+    <autorotate delay="5.00" enabled="1" nodedelay="0.00" speed="0.100" startloaded="0" noderandom="1" horizonfromdefview="0" useanimation="0" nodefilter="" returntohorizon="0.000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control lockedmouse="0" invertcontrol="1" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" hideabout="1" sensitivity="8" speedwheel="1" contextvr="0" simulatemass="1" invertwheel="0" dblclickfullscreen="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node11">
-    <input levelbias="0.400" leveltilesize="510" levelingpitch="0" levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="3600" height="3600">
-      <level predecode="0" preload="0" width="3600" height="3600"/>
-      <level predecode="0" preload="0" width="1800" height="1800"/>
-      <level predecode="0" preload="0" width="900" height="900"/>
-      <level predecode="1" preload="1" width="450" height="450"/>
+  <panorama id="node11" hideabout="1">
+    <input height="3600" leveltilesize="510" levelbias="0.400" width="3600" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelingpitch="0">
+      <level height="3600" width="3600" preload="0" predecode="0"/>
+      <level height="1800" width="1800" preload="0" predecode="0"/>
+      <level height="900" width="900" preload="0" predecode="0"/>
+      <level height="450" width="450" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="-126.985">
-      <start pan="0" tilt="0" projection="4" fov="100"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+    <view pannorth="-126.985" fovmode="2">
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
       <min pan="0" tilt="-90" fovpixel="1"/>
-      <max fovfisheye="360" pan="360" tilt="90" fovstereographic="330" scaletofit="1" fov="100"/>
+      <max pan="360" fovstereographic="330" fovfisheye="360" scaletofit="1" tilt="90" fov="100"/>
     </view>
-    <userdata info="" heading="-126.985" latitude="15.583393" datetime="5/5/2025 3:27 PM" tags="MeThu" nodeid="node11" altitude="39.93" copyright="" title="Điểm drone 11" longitude="108.514140" source="" author="" comment="" customnodeid="" description=""/>
-    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
-      <label wordwrap="1" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" borderalpha="1" border="1" borderradius="1" background="1" width="180" height="20" textcolor="0x000000" bordercolor="0x000000" textalpha="1"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" borderalpha="1" mode="0"/>
-      <hotspot skinid="ht_node_forward_1" pan="-104.07" tilt="0" distance="80.8822" target="$fwd" id="Point01" url="{node12}" title="Điểm drone 12" description=""/>
-      <hotspot skinid="ht_node_forward_1" pan="-47.93" tilt="0" distance="187.419" target="$fwd" id="Point02" url="{node9}" title="Điểm drone 09" description=""/>
-      <hotspot skinid="ht_node_forward_1" pan="-78.12" tilt="0" distance="154.156" target="$fwd" id="Point03" url="{node1}" title="Điểm drone 02" description=""/>
-      <hotspot skinid="ht_node_forward_1" pan="6.82" tilt="0" distance="116.792" target="$fwd" id="Point04" url="{node10}" title="Điểm drone 10" description=""/>
+    <userdata author="" latitude="15.583393" customnodeid="" title="Điểm drone 11" info="" tags="MeThu" longitude="108.514140" altitude="39.93" heading="-126.985" source="" nodeid="node11" comment="" datetime="5/5/2025 3:27 PM" copyright="" description=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label borderradius="1" backgroundalpha="1" height="20" enabled="1" bordercolor="0x000000" wordwrap="1" borderalpha="1" width="180" textcolor="0x000000" textalpha="1" backgroundcolor="0xffffff" border="1" background="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="0"/>
+      <hotspot url="{node12}" pan="-104.07" target="$fwd" title="Điểm drone 12" skinid="ht_node_UAV" id="Point01" distance="80.8822" tilt="0" description=""/>
+      <hotspot url="{node9}" pan="-47.93" target="$fwd" title="Điểm drone 09" skinid="ht_node_UAV" id="Point02" distance="187.419" tilt="0" description=""/>
+      <hotspot url="{node1}" pan="-78.12" target="$fwd" title="Điểm drone 02" skinid="ht_node_UAV" id="Point03" distance="154.156" tilt="0" description=""/>
+      <hotspot url="{node10}" pan="6.82" target="$fwd" title="Điểm drone 10" skinid="ht_node_UAV" id="Point04" distance="116.792" tilt="0" description=""/>
     </hotspots>
-    <media/>
-    <transition zoomafteroutfov="40" zoomfov="40" zoomafterinfov="140" zoomspeed="2" zoomoutpause="1" enabled="1" type="crossdissolve" blendtime="1" zoomin="0" softedge="0" delay="none" blendcolor="0x000000" zoomout="0"/>
-    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
-    <control simulatemass="1" speedwheel="1" lockedkeyboard="0" zoomcentercursor="1" invertcontrol="1" contextvr="1" hideabout="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" lockedmouse="0" contextprojections="0" rubberband="0" dblclickfullscreen="0" invertwheel="0"/>
+    <media>
+      <sound field="90.000" pan="-1.000" tiltsize="10.000" level="1.000" id="_background" mode="0" nodechangekeep="1" pansize="10.000" ambientlevel="0.000" loop="-1" tilt="-1.000" startmutedmobile="0">
+        <source url="media/TuongDai_MeThu.mp3" mono="0"/>
+      </sound>
+    </media>
+    <transition delay="none" enabled="1" softedge="0" zoomoutpause="1" type="crossdissolve" zoomin="0" blendcolor="0x000000" zoomfov="40" zoomout="0" zoomspeed="2" zoomafterinfov="140" blendtime="1" zoomafteroutfov="40"/>
+    <autorotate delay="5.00" enabled="1" nodedelay="0.00" speed="0.100" startloaded="0" noderandom="1" horizonfromdefview="0" useanimation="0" nodefilter="" returntohorizon="0.000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control lockedmouse="0" invertcontrol="1" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" hideabout="1" sensitivity="8" speedwheel="1" contextvr="0" simulatemass="1" invertwheel="0" dblclickfullscreen="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node12">
-    <input levelbias="0.400" leveltilesize="510" levelingpitch="0" levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="3600" height="3600">
-      <level predecode="0" preload="0" width="3600" height="3600"/>
-      <level predecode="0" preload="0" width="1800" height="1800"/>
-      <level predecode="0" preload="0" width="900" height="900"/>
-      <level predecode="1" preload="1" width="450" height="450"/>
+  <panorama id="node12" hideabout="1">
+    <input height="3600" leveltilesize="510" levelbias="0.400" width="3600" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelingpitch="0">
+      <level height="3600" width="3600" preload="0" predecode="0"/>
+      <level height="1800" width="1800" preload="0" predecode="0"/>
+      <level height="900" width="900" preload="0" predecode="0"/>
+      <level height="450" width="450" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="-131.596">
-      <start pan="0" tilt="0" projection="4" fov="100"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+    <view pannorth="-131.596" fovmode="2">
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
       <min pan="0" tilt="-90" fovpixel="1"/>
-      <max fovfisheye="360" pan="360" tilt="90" fovstereographic="330" scaletofit="1" fov="100"/>
+      <max pan="360" fovstereographic="330" fovfisheye="360" scaletofit="1" tilt="90" fov="100"/>
     </view>
-    <userdata info="" heading="-131.596" latitude="15.584063" datetime="5/5/2025 3:28 PM" tags="MeThu" nodeid="node12" altitude="37.57" copyright="" title="Điểm drone 12" longitude="108.513846" source="" author="" comment="" customnodeid="" description=""/>
-    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
-      <label wordwrap="1" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" borderalpha="1" border="1" borderradius="1" background="1" width="180" height="20" textcolor="0x000000" bordercolor="0x000000" textalpha="1"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" borderalpha="1" mode="0"/>
-      <hotspot skinid="ht_node_forward_1" pan="-65.26" tilt="0" distance="69.8132" target="$fwd" id="Point01" url="{node13}" title="Điểm drone 13" description=""/>
-      <hotspot skinid="ht_node_forward_1" pan="-282.13" tilt="2.64" distance="80.8822" target="$fwd" id="Point02" url="{node11}" title="Điểm drone 11" description=""/>
+    <userdata author="" latitude="15.584063" customnodeid="" title="Điểm drone 12" info="" tags="MeThu" longitude="108.513846" altitude="37.57" heading="-131.596" source="" nodeid="node12" comment="" datetime="5/5/2025 3:28 PM" copyright="" description=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label borderradius="1" backgroundalpha="1" height="20" enabled="1" bordercolor="0x000000" wordwrap="1" borderalpha="1" width="180" textcolor="0x000000" textalpha="1" backgroundcolor="0xffffff" border="1" background="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="0"/>
+      <hotspot url="{node13}" pan="-65.26" target="$fwd" title="Điểm drone 13" skinid="ht_node_UAV" id="Point01" distance="69.8132" tilt="0" description=""/>
+      <hotspot url="{node11}" pan="-282.13" target="$fwd" title="Điểm drone 11" skinid="ht_node_UAV" id="Point02" distance="80.8822" tilt="2.64" description=""/>
     </hotspots>
-    <media/>
-    <transition zoomafteroutfov="40" zoomfov="40" zoomafterinfov="140" zoomspeed="2" zoomoutpause="1" enabled="1" type="crossdissolve" blendtime="1" zoomin="0" softedge="0" delay="none" blendcolor="0x000000" zoomout="0"/>
-    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
-    <control simulatemass="1" speedwheel="1" lockedkeyboard="0" zoomcentercursor="1" invertcontrol="1" contextvr="1" hideabout="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" lockedmouse="0" contextprojections="0" rubberband="0" dblclickfullscreen="0" invertwheel="0"/>
+    <media>
+      <sound field="90.000" pan="-1.000" tiltsize="10.000" level="1.000" id="_background" mode="0" nodechangekeep="1" pansize="10.000" ambientlevel="0.000" loop="-1" tilt="-1.000" startmutedmobile="0">
+        <source url="media/TuongDai_MeThu.mp3" mono="0"/>
+      </sound>
+    </media>
+    <transition delay="none" enabled="1" softedge="0" zoomoutpause="1" type="crossdissolve" zoomin="0" blendcolor="0x000000" zoomfov="40" zoomout="0" zoomspeed="2" zoomafterinfov="140" blendtime="1" zoomafteroutfov="40"/>
+    <autorotate delay="5.00" enabled="1" nodedelay="0.00" speed="0.100" startloaded="0" noderandom="1" horizonfromdefview="0" useanimation="0" nodefilter="" returntohorizon="0.000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control lockedmouse="0" invertcontrol="1" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" hideabout="1" sensitivity="8" speedwheel="1" contextvr="0" simulatemass="1" invertwheel="0" dblclickfullscreen="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node13">
-    <input levelbias="0.400" leveltilesize="510" levelingpitch="0" levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="3600" height="3600">
-      <level predecode="0" preload="0" width="3600" height="3600"/>
-      <level predecode="0" preload="0" width="1800" height="1800"/>
-      <level predecode="0" preload="0" width="900" height="900"/>
-      <level predecode="1" preload="1" width="450" height="450"/>
+  <panorama id="node13" hideabout="1">
+    <input height="3600" leveltilesize="510" levelbias="0.400" width="3600" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelingpitch="0">
+      <level height="3600" width="3600" preload="0" predecode="0"/>
+      <level height="1800" width="1800" preload="0" predecode="0"/>
+      <level height="900" width="900" preload="0" predecode="0"/>
+      <level height="450" width="450" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="-70.5497">
-      <start pan="0" tilt="0" projection="4" fov="100"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+    <view pannorth="-70.5497" fovmode="2">
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
       <min pan="0" tilt="-90" fovpixel="1"/>
-      <max fovfisheye="360" pan="360" tilt="90" fovstereographic="330" scaletofit="1" fov="100"/>
+      <max pan="360" fovstereographic="330" fovfisheye="360" scaletofit="1" tilt="90" fov="100"/>
     </view>
-    <userdata info="" heading="-70.5497" latitude="15.584315" datetime="5/5/2025 3:29 PM" tags="MeThu" nodeid="node13" altitude="39.22" copyright="" title="Điểm drone 13" longitude="108.513249" source="" author="" comment="" customnodeid="" description=""/>
-    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
-      <label wordwrap="1" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" borderalpha="1" border="1" borderradius="1" background="1" width="180" height="20" textcolor="0x000000" bordercolor="0x000000" textalpha="1"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" borderalpha="1" mode="0"/>
-      <hotspot skinid="ht_node_forward_1" pan="22.53" tilt="0" distance="20.7015" target="$fwd" id="Point01" url="{node1}" title="Điểm drone 02" description=""/>
-      <hotspot skinid="ht_node_forward_1" pan="-184.21" tilt="0" distance="69.8132" target="$fwd" id="Point02" url="{node12}" title="Điểm drone 12" description=""/>
+    <userdata author="" latitude="15.584315" customnodeid="" title="Điểm drone 13" info="" tags="MeThu" longitude="108.513249" altitude="39.22" heading="-70.5497" source="" nodeid="node13" comment="" datetime="5/5/2025 3:29 PM" copyright="" description=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label borderradius="1" backgroundalpha="1" height="20" enabled="1" bordercolor="0x000000" wordwrap="1" borderalpha="1" width="180" textcolor="0x000000" textalpha="1" backgroundcolor="0xffffff" border="1" background="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="0"/>
+      <hotspot url="{node1}" pan="22.53" target="$fwd" title="Điểm drone 02" skinid="ht_node_UAV" id="Point01" distance="20.7015" tilt="0" description=""/>
+      <hotspot url="{node12}" pan="-184.21" target="$fwd" title="Điểm drone 12" skinid="ht_node_UAV" id="Point02" distance="69.8132" tilt="0" description=""/>
     </hotspots>
-    <media/>
-    <transition zoomafteroutfov="40" zoomfov="40" zoomafterinfov="140" zoomspeed="2" zoomoutpause="1" enabled="1" type="crossdissolve" blendtime="1" zoomin="0" softedge="0" delay="none" blendcolor="0x000000" zoomout="0"/>
-    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
-    <control simulatemass="1" speedwheel="1" lockedkeyboard="0" zoomcentercursor="1" invertcontrol="1" contextvr="1" hideabout="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" lockedmouse="0" contextprojections="0" rubberband="0" dblclickfullscreen="0" invertwheel="0"/>
+    <media>
+      <sound field="90.000" pan="-1.000" tiltsize="10.000" level="1.000" id="_background" mode="0" nodechangekeep="1" pansize="10.000" ambientlevel="0.000" loop="-1" tilt="-1.000" startmutedmobile="0">
+        <source url="media/TuongDai_MeThu.mp3" mono="0"/>
+      </sound>
+    </media>
+    <transition delay="none" enabled="1" softedge="0" zoomoutpause="1" type="crossdissolve" zoomin="0" blendcolor="0x000000" zoomfov="40" zoomout="0" zoomspeed="2" zoomafterinfov="140" blendtime="1" zoomafteroutfov="40"/>
+    <autorotate delay="5.00" enabled="1" nodedelay="0.00" speed="0.100" startloaded="0" noderandom="1" horizonfromdefview="0" useanimation="0" nodefilter="" returntohorizon="0.000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control lockedmouse="0" invertcontrol="1" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" hideabout="1" sensitivity="8" speedwheel="1" contextvr="0" simulatemass="1" invertwheel="0" dblclickfullscreen="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node14">
-    <input levelbias="0.400" leveltilesize="510" levelingpitch="0" levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="3600" height="3600">
-      <level predecode="0" preload="0" width="3600" height="3600"/>
-      <level predecode="0" preload="0" width="1800" height="1800"/>
-      <level predecode="0" preload="0" width="900" height="900"/>
-      <level predecode="1" preload="1" width="450" height="450"/>
+  <panorama id="node14" hideabout="1">
+    <input height="3600" leveltilesize="510" levelbias="0.400" width="3600" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelingpitch="0">
+      <level height="3600" width="3600" preload="0" predecode="0"/>
+      <level height="1800" width="1800" preload="0" predecode="0"/>
+      <level height="900" width="900" preload="0" predecode="0"/>
+      <level height="450" width="450" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="-122.031">
-      <start pan="13.2" tilt="1.09" projection="4" fov="120"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+    <view pannorth="-122.031" fovmode="2">
+      <start projection="4" pan="13.2" tilt="1.09" fov="120"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
       <min pan="0" tilt="-90" fovpixel="1"/>
-      <max fovfisheye="360" pan="360" tilt="90" fovstereographic="330" scaletofit="1" fov="100"/>
+      <max pan="360" fovstereographic="330" fovfisheye="360" scaletofit="1" tilt="90" fov="100"/>
     </view>
-    <userdata info="" heading="-122.031" latitude="15.585149" datetime="5/5/2025 3:30 PM" tags="MeThu" nodeid="node14" altitude="66.45" copyright="" title="Điểm drone 14" longitude="108.512231" source="" author="" comment="" customnodeid="" description=""/>
-    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
-      <label wordwrap="1" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" borderalpha="1" border="1" borderradius="1" background="1" width="180" height="20" textcolor="0x000000" bordercolor="0x000000" textalpha="1"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" borderalpha="1" mode="0"/>
-      <hotspot skinid="ht_node_forward_1" pan="-171.89" tilt="0" distance="25.3576" target="$fwd" id="Point01" url="{node7}" title="Điểm drone 01" description=""/>
-      <hotspot skinid="ht_node_forward_1" pan="18.07" tilt="0" distance="177.992" target="$fwd" id="Point02" url="{node2}" title="Điểm drone 03" description=""/>
+    <userdata author="" latitude="15.585149" customnodeid="" title="Điểm drone 14" info="" tags="MeThu" longitude="108.512231" altitude="66.45" heading="-122.031" source="" nodeid="node14" comment="" datetime="5/5/2025 3:30 PM" copyright="" description=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label borderradius="1" backgroundalpha="1" height="20" enabled="1" bordercolor="0x000000" wordwrap="1" borderalpha="1" width="180" textcolor="0x000000" textalpha="1" backgroundcolor="0xffffff" border="1" background="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="0"/>
+      <hotspot url="{node7}" pan="-171.89" target="$fwd" title="Điểm drone 01" skinid="ht_node_UAV" id="Point01" distance="25.3576" tilt="0" description=""/>
+      <hotspot url="{node2}" pan="18.07" target="$fwd" title="Điểm drone 03" skinid="ht_node_UAV" id="Point02" distance="177.992" tilt="0" description=""/>
     </hotspots>
-    <media/>
-    <transition zoomafteroutfov="40" zoomfov="40" zoomafterinfov="140" zoomspeed="2" zoomoutpause="1" enabled="1" type="crossdissolve" blendtime="1" zoomin="0" softedge="0" delay="none" blendcolor="0x000000" zoomout="0"/>
-    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
-    <control simulatemass="1" speedwheel="1" lockedkeyboard="0" zoomcentercursor="1" invertcontrol="1" contextvr="1" hideabout="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" lockedmouse="0" contextprojections="0" rubberband="0" dblclickfullscreen="0" invertwheel="0"/>
+    <media>
+      <sound field="90.000" pan="-1.000" tiltsize="10.000" level="1.000" id="_background" mode="0" nodechangekeep="1" pansize="10.000" ambientlevel="0.000" loop="-1" tilt="-1.000" startmutedmobile="0">
+        <source url="media/TuongDai_MeThu.mp3" mono="0"/>
+      </sound>
+    </media>
+    <transition delay="none" enabled="1" softedge="0" zoomoutpause="1" type="crossdissolve" zoomin="0" blendcolor="0x000000" zoomfov="40" zoomout="0" zoomspeed="2" zoomafterinfov="140" blendtime="1" zoomafteroutfov="40"/>
+    <autorotate delay="5.00" enabled="1" nodedelay="0.00" speed="0.100" startloaded="0" noderandom="1" horizonfromdefview="0" useanimation="0" nodefilter="" returntohorizon="0.000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control lockedmouse="0" invertcontrol="1" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" hideabout="1" sensitivity="8" speedwheel="1" contextvr="0" simulatemass="1" invertwheel="0" dblclickfullscreen="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node40">
-    <input levelbias="0.400" leveltilesize="510" levelingpitch="0" levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node40/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="2976" height="2976">
-      <level predecode="0" preload="0" width="2976" height="2976"/>
-      <level predecode="0" preload="0" width="1488" height="1488"/>
-      <level predecode="0" preload="0" width="744" height="744"/>
-      <level predecode="1" preload="1" width="372" height="372"/>
+  <panorama id="node40" hideabout="1">
+    <input height="2976" leveltilesize="510" levelbias="0.400" width="2976" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node40/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelingpitch="0">
+      <level height="2976" width="2976" preload="0" predecode="0"/>
+      <level height="1488" width="1488" preload="0" predecode="0"/>
+      <level height="744" width="744" preload="0" predecode="0"/>
+      <level height="372" width="372" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="-125.411">
-      <start pan="11.63" tilt="7.87" projection="4" fov="112.97"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+    <view pannorth="-125.411" fovmode="2">
+      <start projection="4" pan="11.63" tilt="7.87" fov="112.97"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
       <min pan="0" tilt="-90" fovpixel="1"/>
-      <max fovfisheye="360" pan="360" tilt="90" fovstereographic="330" scaletofit="1" fov="100"/>
+      <max pan="360" fovstereographic="330" fovfisheye="360" scaletofit="1" tilt="90" fov="100"/>
     </view>
-    <userdata info="" heading="-125.411" latitude="15.584083" datetime="5/5/2025 12:07 PM" tags="MeThu" nodeid="node40" altitude="3.10" copyright="" title="Điểm mặt đất 01" longitude="108.511194" source="" author="" comment="" customnodeid="" description=""/>
-    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
-      <label wordwrap="1" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" borderalpha="1" border="1" borderradius="1" background="1" width="180" height="20" textcolor="0x000000" bordercolor="0x000000" textalpha="1"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" borderalpha="1" mode="0"/>
-      <hotspot skinid="ht_node_forward" pan="-102.43" tilt="-32.66" distance="6.86568" target="$fwd" id="Point01" url="{node41}" title="Điểm mặt đất 02" description=""/>
-      <hotspot skinid="ht_node_forward_1" pan="47.76" tilt="38.53" distance="18.2794" target="$fwd" id="Point02" url="{node2}" title="Điểm drone 03" description=""/>
-      <hotspot skinid="ht_node_forward_1" pan="-64.64" tilt="33.81" distance="38.1518" target="$fwd" id="Point03" url="{node3}" title="Điểm drone 04" description=""/>
+    <userdata author="" latitude="15.584083" customnodeid="" title="Điểm mặt đất 01" info="" tags="MeThu" longitude="108.511194" altitude="3.10" heading="-125.411" source="" nodeid="node40" comment="" datetime="5/5/2025 12:07 PM" copyright="" description=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label borderradius="1" backgroundalpha="1" height="20" enabled="1" bordercolor="0x000000" wordwrap="1" borderalpha="1" width="180" textcolor="0x000000" textalpha="1" backgroundcolor="0xffffff" border="1" background="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="0"/>
+      <hotspot url="{node41}" pan="-102.43" target="$fwd" title="Điểm mặt đất 02" skinid="ht_node_forward" id="Point01" distance="6.86568" tilt="-32.66" description=""/>
+      <hotspot url="{node2}" pan="47.76" target="$fwd" title="Điểm drone 03" skinid="ht_node_UAV" id="Point02" distance="18.2794" tilt="38.53" description=""/>
+      <hotspot url="{node3}" pan="-64.64" target="$fwd" title="Điểm drone 04" skinid="ht_node_UAV" id="Point03" distance="38.1518" tilt="33.81" description=""/>
+      <hotspot url="https://thaibinhtran-vr360.github.io/MeThu_Inside_2/" pan="-295.77" target="_top" title="Vào tham quan bảo tàng" skinid="ht_url" id="Point04" tilt="-1.28" description=""/>
     </hotspots>
-    <media/>
-    <transition zoomafteroutfov="40" zoomfov="40" zoomafterinfov="140" zoomspeed="2" zoomoutpause="1" enabled="1" type="crossdissolve" blendtime="1" zoomin="0" softedge="0" delay="none" blendcolor="0x000000" zoomout="0"/>
-    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
-    <control simulatemass="1" speedwheel="1" lockedkeyboard="0" zoomcentercursor="1" invertcontrol="1" contextvr="1" hideabout="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" lockedmouse="0" contextprojections="0" rubberband="0" dblclickfullscreen="0" invertwheel="0"/>
+    <media>
+      <sound field="90.000" pan="-1.000" tiltsize="10.000" level="1.000" id="_background" mode="0" nodechangekeep="1" pansize="10.000" ambientlevel="0.000" loop="-1" tilt="-1.000" startmutedmobile="0">
+        <source url="media/TuongDai_MeThu.mp3" mono="0"/>
+      </sound>
+    </media>
+    <transition delay="none" enabled="1" softedge="0" zoomoutpause="1" type="crossdissolve" zoomin="0" blendcolor="0x000000" zoomfov="40" zoomout="0" zoomspeed="2" zoomafterinfov="140" blendtime="1" zoomafteroutfov="40"/>
+    <autorotate delay="5.00" enabled="1" nodedelay="0.00" speed="0.100" startloaded="0" noderandom="1" horizonfromdefview="0" useanimation="0" nodefilter="" returntohorizon="0.000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control lockedmouse="0" invertcontrol="1" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" hideabout="1" sensitivity="8" speedwheel="1" contextvr="0" simulatemass="1" invertwheel="0" dblclickfullscreen="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node41">
-    <input levelbias="0.400" leveltilesize="510" levelingpitch="0" levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node41/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="2976" height="2976">
-      <level predecode="0" preload="0" width="2976" height="2976"/>
-      <level predecode="0" preload="0" width="1488" height="1488"/>
-      <level predecode="0" preload="0" width="744" height="744"/>
-      <level predecode="1" preload="1" width="372" height="372"/>
+  <panorama id="node41" hideabout="1">
+    <input height="2976" leveltilesize="510" levelbias="0.400" width="2976" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node41/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelingpitch="0">
+      <level height="2976" width="2976" preload="0" predecode="0"/>
+      <level height="1488" width="1488" preload="0" predecode="0"/>
+      <level height="744" width="744" preload="0" predecode="0"/>
+      <level height="372" width="372" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="-144.416">
-      <start pan="0" tilt="0" projection="4" fov="100"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+    <view pannorth="-144.416" fovmode="2">
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
       <min pan="0" tilt="-90" fovpixel="1"/>
-      <max fovfisheye="360" pan="360" tilt="90" fovstereographic="330" scaletofit="1" fov="100"/>
+      <max pan="360" fovstereographic="330" fovfisheye="360" scaletofit="1" tilt="90" fov="100"/>
     </view>
-    <userdata info="" heading="-144.416" latitude="15.584139" datetime="5/5/2025 12:07 PM" tags="MeThu" nodeid="node41" altitude="2.10" copyright="" title="Điểm mặt đất 02" longitude="108.511167" source="" author="" comment="" customnodeid="" description=""/>
-    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
-      <label wordwrap="1" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" borderalpha="1" border="1" borderradius="1" background="1" width="180" height="20" textcolor="0x000000" bordercolor="0x000000" textalpha="1"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" borderalpha="1" mode="0"/>
-      <hotspot skinid="ht_node_forward" pan="-189.81" tilt="-4.75" distance="29.9516" target="$fwd" id="Point01" url="{node42}" title="Điểm mặt đất 03" description=""/>
-      <hotspot skinid="ht_node_forward" pan="-278.69" tilt="-19.79" distance="6.86568" target="$fwd" id="Point02" url="{node40}" title="Điểm mặt đất 01" description=""/>
-      <hotspot skinid="ht_node_forward_1" pan="-71.52" tilt="25.17" distance="32.7347" target="$fwd" id="Point03" url="{node3}" title="Điểm drone 04" description=""/>
-      <hotspot skinid="ht_node_forward_1" pan="40.09" tilt="32.31" distance="24.2414" target="$fwd" id="Point04" url="{node2}" title="Điểm drone 03" description=""/>
+    <userdata author="" latitude="15.584139" customnodeid="" title="Điểm mặt đất 02" info="" tags="MeThu" longitude="108.511167" altitude="2.10" heading="-144.416" source="" nodeid="node41" comment="" datetime="5/5/2025 12:07 PM" copyright="" description=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label borderradius="1" backgroundalpha="1" height="20" enabled="1" bordercolor="0x000000" wordwrap="1" borderalpha="1" width="180" textcolor="0x000000" textalpha="1" backgroundcolor="0xffffff" border="1" background="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="0"/>
+      <hotspot url="{node42}" pan="-189.81" target="$fwd" title="Điểm mặt đất 03" skinid="ht_node_forward" id="Point01" distance="29.9516" tilt="-4.75" description=""/>
+      <hotspot url="{node40}" pan="-278.69" target="$fwd" title="Điểm mặt đất 01" skinid="ht_node_forward" id="Point02" distance="6.86568" tilt="-19.79" description=""/>
+      <hotspot url="{node3}" pan="-71.52" target="$fwd" title="Điểm drone 04" skinid="ht_node_UAV" id="Point03" distance="32.7347" tilt="25.17" description=""/>
+      <hotspot url="{node2}" pan="40.09" target="$fwd" title="Điểm drone 03" skinid="ht_node_UAV" id="Point04" distance="24.2414" tilt="32.31" description=""/>
+      <hotspot url="https://thaibinhtran-vr360.github.io/MeThu_Inside_2/" pan="-306.79" target="_top" title="Vào tham quan bảo tàng" skinid="ht_url" id="Point05" tilt="-1.75" description=""/>
     </hotspots>
-    <media/>
-    <transition zoomafteroutfov="40" zoomfov="40" zoomafterinfov="140" zoomspeed="2" zoomoutpause="1" enabled="1" type="crossdissolve" blendtime="1" zoomin="0" softedge="0" delay="none" blendcolor="0x000000" zoomout="0"/>
-    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
-    <control simulatemass="1" speedwheel="1" lockedkeyboard="0" zoomcentercursor="1" invertcontrol="1" contextvr="1" hideabout="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" lockedmouse="0" contextprojections="0" rubberband="0" dblclickfullscreen="0" invertwheel="0"/>
+    <media>
+      <sound field="90.000" pan="-1.000" tiltsize="10.000" level="1.000" id="_background" mode="0" nodechangekeep="1" pansize="10.000" ambientlevel="0.000" loop="-1" tilt="-1.000" startmutedmobile="0">
+        <source url="media/TuongDai_MeThu.mp3" mono="0"/>
+      </sound>
+    </media>
+    <transition delay="none" enabled="1" softedge="0" zoomoutpause="1" type="crossdissolve" zoomin="0" blendcolor="0x000000" zoomfov="40" zoomout="0" zoomspeed="2" zoomafterinfov="140" blendtime="1" zoomafteroutfov="40"/>
+    <autorotate delay="5.00" enabled="1" nodedelay="0.00" speed="0.100" startloaded="0" noderandom="1" horizonfromdefview="0" useanimation="0" nodefilter="" returntohorizon="0.000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control lockedmouse="0" invertcontrol="1" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" hideabout="1" sensitivity="8" speedwheel="1" contextvr="0" simulatemass="1" invertwheel="0" dblclickfullscreen="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node42">
-    <input levelbias="0.400" leveltilesize="510" levelingpitch="0" levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node42/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="2976" height="2976">
-      <level predecode="0" preload="0" width="2976" height="2976"/>
-      <level predecode="0" preload="0" width="1488" height="1488"/>
-      <level predecode="0" preload="0" width="744" height="744"/>
-      <level predecode="1" preload="1" width="372" height="372"/>
+  <panorama id="node42" hideabout="1">
+    <input height="2976" leveltilesize="510" levelbias="0.400" width="2976" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node42/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelingpitch="0">
+      <level height="2976" width="2976" preload="0" predecode="0"/>
+      <level height="1488" width="1488" preload="0" predecode="0"/>
+      <level height="744" width="744" preload="0" predecode="0"/>
+      <level height="372" width="372" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="-126.49">
-      <start pan="0" tilt="0" projection="4" fov="100"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+    <view pannorth="-126.49" fovmode="2">
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
       <min pan="0" tilt="-90" fovpixel="1"/>
-      <max fovfisheye="360" pan="360" tilt="90" fovstereographic="330" scaletofit="1" fov="100"/>
+      <max pan="360" fovstereographic="330" fovfisheye="360" scaletofit="1" tilt="90" fov="100"/>
     </view>
-    <userdata info="" heading="-126.49" latitude="15.584333" datetime="5/5/2025 12:08 PM" tags="MeThu" nodeid="node42" altitude="5.60" copyright="" title="Điểm mặt đất 03" longitude="108.511361" source="" author="" comment="" customnodeid="" description=""/>
-    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
-      <label wordwrap="1" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" borderalpha="1" border="1" borderradius="1" background="1" width="180" height="20" textcolor="0x000000" bordercolor="0x000000" textalpha="1"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" borderalpha="1" mode="0"/>
-      <hotspot skinid="ht_node_forward" pan="-170.73" tilt="-9.36" distance="23.6396" target="$fwd" id="Point01" url="{node43}" title="Điểm mặt đất 04" description=""/>
-      <hotspot skinid="ht_node_forward" pan="7.9" tilt="-12.61" distance="29.9516" target="$fwd" id="Point02" url="{node41}" title="Điểm mặt đất 02" description=""/>
-      <hotspot skinid="ht_url" pan="-316.9" url="https://thaibinhtran-vr360.github.io/MeThu_Inside_2/" tilt="-0.42" title="Vào tham quan bảo tàng" target="_blank" id="Point03" description=""/>
+    <userdata author="" latitude="15.584333" customnodeid="" title="Điểm mặt đất 03" info="" tags="MeThu" longitude="108.511361" altitude="5.60" heading="-126.49" source="" nodeid="node42" comment="" datetime="5/5/2025 12:08 PM" copyright="" description=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label borderradius="1" backgroundalpha="1" height="20" enabled="1" bordercolor="0x000000" wordwrap="1" borderalpha="1" width="180" textcolor="0x000000" textalpha="1" backgroundcolor="0xffffff" border="1" background="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="0"/>
+      <hotspot url="{node43}" pan="-170.73" target="$fwd" title="Điểm mặt đất 04" skinid="ht_node_forward" id="Point01" distance="23.6396" tilt="-9.36" description=""/>
+      <hotspot url="{node41}" pan="7.9" target="$fwd" title="Điểm mặt đất 02" skinid="ht_node_forward" id="Point02" distance="29.9516" tilt="-12.61" description=""/>
+      <hotspot url="https://thaibinhtran-vr360.github.io/MeThu_Inside_2/" pan="-316.9" target="_blank" title="Vào tham quan bảo tàng" skinid="ht_url" id="Point03" tilt="-0.42" description=""/>
     </hotspots>
-    <media/>
-    <transition zoomafteroutfov="40" zoomfov="40" zoomafterinfov="140" zoomspeed="2" zoomoutpause="1" enabled="1" type="crossdissolve" blendtime="1" zoomin="0" softedge="0" delay="none" blendcolor="0x000000" zoomout="0"/>
-    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
-    <control simulatemass="1" speedwheel="1" lockedkeyboard="0" zoomcentercursor="1" invertcontrol="1" contextvr="1" hideabout="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" lockedmouse="0" contextprojections="0" rubberband="0" dblclickfullscreen="0" invertwheel="0"/>
+    <media>
+      <sound field="90.000" pan="-1.000" tiltsize="10.000" level="1.000" id="_background" mode="0" nodechangekeep="1" pansize="10.000" ambientlevel="0.000" loop="-1" tilt="-1.000" startmutedmobile="0">
+        <source url="media/TuongDai_MeThu.mp3" mono="0"/>
+      </sound>
+    </media>
+    <transition delay="none" enabled="1" softedge="0" zoomoutpause="1" type="crossdissolve" zoomin="0" blendcolor="0x000000" zoomfov="40" zoomout="0" zoomspeed="2" zoomafterinfov="140" blendtime="1" zoomafteroutfov="40"/>
+    <autorotate delay="5.00" enabled="1" nodedelay="0.00" speed="0.100" startloaded="0" noderandom="1" horizonfromdefview="0" useanimation="0" nodefilter="" returntohorizon="0.000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control lockedmouse="0" invertcontrol="1" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" hideabout="1" sensitivity="8" speedwheel="1" contextvr="0" simulatemass="1" invertwheel="0" dblclickfullscreen="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node43">
-    <input levelbias="0.400" leveltilesize="510" levelingpitch="0" levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node43/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="2976" height="2976">
-      <level predecode="0" preload="0" width="2976" height="2976"/>
-      <level predecode="0" preload="0" width="1488" height="1488"/>
-      <level predecode="0" preload="0" width="744" height="744"/>
-      <level predecode="1" preload="1" width="372" height="372"/>
+  <panorama id="node43" hideabout="1">
+    <input height="2976" leveltilesize="510" levelbias="0.400" width="2976" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node43/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelingpitch="0">
+      <level height="2976" width="2976" preload="0" predecode="0"/>
+      <level height="1488" width="1488" preload="0" predecode="0"/>
+      <level height="744" width="744" preload="0" predecode="0"/>
+      <level height="372" width="372" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="48.805">
-      <start pan="0" tilt="0" projection="4" fov="100"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+    <view pannorth="48.805" fovmode="2">
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
       <min pan="0" tilt="-90" fovpixel="1"/>
-      <max fovfisheye="360" pan="360" tilt="90" fovstereographic="330" scaletofit="1" fov="100"/>
+      <max pan="360" fovstereographic="330" fovfisheye="360" scaletofit="1" tilt="90" fov="100"/>
     </view>
-    <userdata info="" heading="48.805" latitude="15.584472" datetime="5/5/2025 12:10 PM" tags="MeThu" nodeid="node43" altitude="-4.00" copyright="" title="Điểm mặt đất 04" longitude="108.511528" source="" author="" comment="" customnodeid="" description=""/>
-    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
-      <label wordwrap="1" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" borderalpha="1" border="1" borderradius="1" background="1" width="180" height="20" textcolor="0x000000" bordercolor="0x000000" textalpha="1"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" borderalpha="1" mode="0"/>
-      <hotspot skinid="ht_node_forward" pan="-0.62" tilt="-10.78" distance="19.3388" target="$fwd" id="Point01" url="{node44}" title="Điểm mặt đất 05" description=""/>
-      <hotspot skinid="ht_node_forward" pan="178.18" tilt="-7.21" distance="23.6396" target="$fwd" id="Point02" url="{node42}" title="Điểm mặt đất 03" description=""/>
+    <userdata author="" latitude="15.584472" customnodeid="" title="Điểm mặt đất 04" info="" tags="MeThu" longitude="108.511528" altitude="-4.00" heading="48.805" source="" nodeid="node43" comment="" datetime="5/5/2025 12:10 PM" copyright="" description=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label borderradius="1" backgroundalpha="1" height="20" enabled="1" bordercolor="0x000000" wordwrap="1" borderalpha="1" width="180" textcolor="0x000000" textalpha="1" backgroundcolor="0xffffff" border="1" background="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="0"/>
+      <hotspot url="{node44}" pan="-0.62" target="$fwd" title="Điểm mặt đất 05" skinid="ht_node_forward" id="Point01" distance="19.3388" tilt="-10.78" description=""/>
+      <hotspot url="{node42}" pan="178.18" target="$fwd" title="Điểm mặt đất 03" skinid="ht_node_forward" id="Point02" distance="23.6396" tilt="-7.21" description=""/>
     </hotspots>
-    <media/>
-    <transition zoomafteroutfov="40" zoomfov="40" zoomafterinfov="140" zoomspeed="2" zoomoutpause="1" enabled="1" type="crossdissolve" blendtime="1" zoomin="0" softedge="0" delay="none" blendcolor="0x000000" zoomout="0"/>
-    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
-    <control simulatemass="1" speedwheel="1" lockedkeyboard="0" zoomcentercursor="1" invertcontrol="1" contextvr="1" hideabout="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" lockedmouse="0" contextprojections="0" rubberband="0" dblclickfullscreen="0" invertwheel="0"/>
+    <media>
+      <sound field="90.000" pan="-1.000" tiltsize="10.000" level="1.000" id="_background" mode="0" nodechangekeep="1" pansize="10.000" ambientlevel="0.000" loop="-1" tilt="-1.000" startmutedmobile="0">
+        <source url="media/TuongDai_MeThu.mp3" mono="0"/>
+      </sound>
+    </media>
+    <transition delay="none" enabled="1" softedge="0" zoomoutpause="1" type="crossdissolve" zoomin="0" blendcolor="0x000000" zoomfov="40" zoomout="0" zoomspeed="2" zoomafterinfov="140" blendtime="1" zoomafteroutfov="40"/>
+    <autorotate delay="5.00" enabled="1" nodedelay="0.00" speed="0.100" startloaded="0" noderandom="1" horizonfromdefview="0" useanimation="0" nodefilter="" returntohorizon="0.000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control lockedmouse="0" invertcontrol="1" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" hideabout="1" sensitivity="8" speedwheel="1" contextvr="0" simulatemass="1" invertwheel="0" dblclickfullscreen="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node44">
-    <input levelbias="0.400" leveltilesize="510" levelingpitch="0" levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node44/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="2976" height="2976">
-      <level predecode="0" preload="0" width="2976" height="2976"/>
-      <level predecode="0" preload="0" width="1488" height="1488"/>
-      <level predecode="0" preload="0" width="744" height="744"/>
-      <level predecode="1" preload="1" width="372" height="372"/>
+  <panorama id="node44" hideabout="1">
+    <input height="2976" leveltilesize="510" levelbias="0.400" width="2976" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node44/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelingpitch="0">
+      <level height="2976" width="2976" preload="0" predecode="0"/>
+      <level height="1488" width="1488" preload="0" predecode="0"/>
+      <level height="744" width="744" preload="0" predecode="0"/>
+      <level height="372" width="372" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="47.1051">
-      <start pan="0" tilt="0" projection="4" fov="100"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+    <view pannorth="47.1051" fovmode="2">
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
       <min pan="0" tilt="-90" fovpixel="1"/>
-      <max fovfisheye="360" pan="360" tilt="90" fovstereographic="330" scaletofit="1" fov="100"/>
+      <max pan="360" fovstereographic="330" fovfisheye="360" scaletofit="1" tilt="90" fov="100"/>
     </view>
-    <userdata info="" heading="47.1051" latitude="15.584583" datetime="5/5/2025 12:10 PM" tags="MeThu" nodeid="node44" altitude="-0.30" copyright="" title="Điểm mặt đất 05" longitude="108.511667" source="" author="" comment="" customnodeid="" description=""/>
-    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
-      <label wordwrap="1" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" borderalpha="1" border="1" borderradius="1" background="1" width="180" height="20" textcolor="0x000000" bordercolor="0x000000" textalpha="1"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" borderalpha="1" mode="0"/>
-      <hotspot skinid="ht_node_forward" pan="353.35" tilt="-12.42" distance="62.0987" target="$fwd" id="Point01" url="{node45}" title="Điểm mặt đất 06" description=""/>
-      <hotspot skinid="ht_node_forward" pan="170.35" tilt="-7.2" distance="19.3388" target="$fwd" id="Point02" url="{node43}" title="Điểm mặt đất 04" description=""/>
+    <userdata author="" latitude="15.584583" customnodeid="" title="Điểm mặt đất 05" info="" tags="MeThu" longitude="108.511667" altitude="-0.30" heading="47.1051" source="" nodeid="node44" comment="" datetime="5/5/2025 12:10 PM" copyright="" description=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label borderradius="1" backgroundalpha="1" height="20" enabled="1" bordercolor="0x000000" wordwrap="1" borderalpha="1" width="180" textcolor="0x000000" textalpha="1" backgroundcolor="0xffffff" border="1" background="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="0"/>
+      <hotspot url="{node45}" pan="353.35" target="$fwd" title="Điểm mặt đất 06" skinid="ht_node_forward" id="Point01" distance="62.0987" tilt="-12.42" description=""/>
+      <hotspot url="{node43}" pan="170.35" target="$fwd" title="Điểm mặt đất 04" skinid="ht_node_forward" id="Point02" distance="19.3388" tilt="-7.2" description=""/>
     </hotspots>
-    <media/>
-    <transition zoomafteroutfov="40" zoomfov="40" zoomafterinfov="140" zoomspeed="2" zoomoutpause="1" enabled="1" type="crossdissolve" blendtime="1" zoomin="0" softedge="0" delay="none" blendcolor="0x000000" zoomout="0"/>
-    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
-    <control simulatemass="1" speedwheel="1" lockedkeyboard="0" zoomcentercursor="1" invertcontrol="1" contextvr="1" hideabout="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" lockedmouse="0" contextprojections="0" rubberband="0" dblclickfullscreen="0" invertwheel="0"/>
+    <media>
+      <sound field="90.000" pan="-1.000" tiltsize="10.000" level="1.000" id="_background" mode="0" nodechangekeep="1" pansize="10.000" ambientlevel="0.000" loop="-1" tilt="-1.000" startmutedmobile="0">
+        <source url="media/TuongDai_MeThu.mp3" mono="0"/>
+      </sound>
+    </media>
+    <transition delay="none" enabled="1" softedge="0" zoomoutpause="1" type="crossdissolve" zoomin="0" blendcolor="0x000000" zoomfov="40" zoomout="0" zoomspeed="2" zoomafterinfov="140" blendtime="1" zoomafteroutfov="40"/>
+    <autorotate delay="5.00" enabled="1" nodedelay="0.00" speed="0.100" startloaded="0" noderandom="1" horizonfromdefview="0" useanimation="0" nodefilter="" returntohorizon="0.000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control lockedmouse="0" invertcontrol="1" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" hideabout="1" sensitivity="8" speedwheel="1" contextvr="0" simulatemass="1" invertwheel="0" dblclickfullscreen="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node45">
-    <input levelbias="0.400" leveltilesize="510" levelingpitch="0" levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node45/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="2976" height="2976">
-      <level predecode="0" preload="0" width="2976" height="2976"/>
-      <level predecode="0" preload="0" width="1488" height="1488"/>
-      <level predecode="0" preload="0" width="744" height="744"/>
-      <level predecode="1" preload="1" width="372" height="372"/>
+  <panorama id="node45" hideabout="1">
+    <input height="2976" leveltilesize="510" levelbias="0.400" width="2976" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node45/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelingpitch="0">
+      <level height="2976" width="2976" preload="0" predecode="0"/>
+      <level height="1488" width="1488" preload="0" predecode="0"/>
+      <level height="744" width="744" preload="0" predecode="0"/>
+      <level height="372" width="372" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="40.5131">
-      <start pan="0" tilt="0" projection="4" fov="100"/>
-      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+    <view pannorth="40.5131" fovmode="2">
+      <start projection="4" pan="0" tilt="0" fov="100"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
       <min pan="0" tilt="-90" fovpixel="1"/>
-      <max fovfisheye="360" pan="360" tilt="90" fovstereographic="330" scaletofit="1" fov="100"/>
+      <max pan="360" fovstereographic="330" fovfisheye="360" scaletofit="1" tilt="90" fov="100"/>
     </view>
-    <userdata info="" heading="40.5131" latitude="15.584972" datetime="5/5/2025 12:11 PM" tags="Menu|MeThu" nodeid="node45" altitude="-1.30" copyright="" title="Điểm mặt đất 06" longitude="108.512083" source="" author="" comment="" customnodeid="" description=""/>
-    <hotspots wordwrap="1" smoothmovement="0" width="180" height="20">
-      <label wordwrap="1" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" borderalpha="1" border="1" borderradius="1" background="1" width="180" height="20" textcolor="0x000000" bordercolor="0x000000" textalpha="1"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" borderalpha="1" mode="0"/>
-      <hotspot skinid="ht_node_forward" pan="163.16" tilt="-6.49" distance="62.0987" target="$fwd" id="Point01" url="{node44}" title="Điểm mặt đất 05" description=""/>
-      <hotspot skinid="ht_node_forward_1" pan="-3.55" tilt="11.02" distance="50.3952" target="$fwd" id="Point02" url="{node7}" title="Điểm drone 01" description=""/>
+    <userdata author="" latitude="15.584972" customnodeid="" title="Điểm mặt đất 06" info="" tags="Menu|MeThu" longitude="108.512083" altitude="-1.30" heading="40.5131" source="" nodeid="node45" comment="" datetime="5/5/2025 12:11 PM" copyright="" description=""/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label borderradius="1" backgroundalpha="1" height="20" enabled="1" bordercolor="0x000000" wordwrap="1" borderalpha="1" width="180" textcolor="0x000000" textalpha="1" backgroundcolor="0xffffff" border="1" background="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="0"/>
+      <hotspot url="{node44}" pan="163.16" target="$fwd" title="Điểm mặt đất 05" skinid="ht_node_forward" id="Point01" distance="62.0987" tilt="-6.49" description=""/>
+      <hotspot url="{node7}" pan="-3.55" target="$fwd" title="Điểm drone 01" skinid="ht_node_UAV" id="Point02" distance="50.3952" tilt="11.02" description=""/>
     </hotspots>
-    <media/>
-    <transition zoomafteroutfov="40" zoomfov="40" zoomafterinfov="140" zoomspeed="2" zoomoutpause="1" enabled="1" type="crossdissolve" blendtime="1" zoomin="0" softedge="0" delay="none" blendcolor="0x000000" zoomout="0"/>
-    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
-    <control simulatemass="1" speedwheel="1" lockedkeyboard="0" zoomcentercursor="1" invertcontrol="1" contextvr="1" hideabout="1" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" lockedmouse="0" contextprojections="0" rubberband="0" dblclickfullscreen="0" invertwheel="0"/>
+    <media>
+      <sound field="90.000" pan="-1.000" tiltsize="10.000" level="1.000" id="_background" mode="0" nodechangekeep="1" pansize="10.000" ambientlevel="0.000" loop="-1" tilt="-1.000" startmutedmobile="0">
+        <source url="media/TuongDai_MeThu.mp3" mono="0"/>
+      </sound>
+    </media>
+    <transition delay="none" enabled="1" softedge="0" zoomoutpause="1" type="crossdissolve" zoomin="0" blendcolor="0x000000" zoomfov="40" zoomout="0" zoomspeed="2" zoomafterinfov="140" blendtime="1" zoomafteroutfov="40"/>
+    <autorotate delay="5.00" enabled="1" nodedelay="0.00" speed="0.100" startloaded="0" noderandom="1" horizonfromdefview="0" useanimation="0" nodefilter="" returntohorizon="0.000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control lockedmouse="0" invertcontrol="1" contextfullscreen="1" rubberband="0" zoomcentercursor="1" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" hideabout="1" sensitivity="8" speedwheel="1" contextvr="0" simulatemass="1" invertwheel="0" dblclickfullscreen="0" lockedkeyboard="0"/>
   </panorama>
   <masternode>
-    <userdata copyright="" title="" author="" tags="" comment="" description=""/>
+    <userdata author="" title="Tượng đài Mẹ Thứ" tags="" comment="" copyright="" description=""/>
     <animationsequences>
       <sequence title="Animation01"/>
     </animationsequences>
   </masternode>
-  <map type="web" mapmaxzoom="18" id="Map01" mapprovider="custom" index="0" title="" mapurltemplate="http://mt0.google.com/vt/lyrs=s&amp;hl=vi&amp;x={x}&amp;y={y}&amp;z={z}" mapstyle="streets" googlecustomstylecode=""/>
+  <map title="" type="web" id="Map01" index="0" mapmaxzoom="18" mapprovider="custom" mapurltemplate="http://mt0.google.com/vt/lyrs=s&amp;hl=vi&amp;x={x}&amp;y={y}&amp;z={z}" googlecustomstylecode="" mapstyle="streets"/>
 </tour>
