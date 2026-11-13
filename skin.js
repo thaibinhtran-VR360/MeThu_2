@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.1.12/21036
 // Filename: MeThu_2.ggsk
-// Generated 2026-11-13T16:11:27
+// Generated 2026-11-13T16:16:11
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_skin', 2, false, { ignoreInState: 1  });
